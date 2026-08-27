@@ -23,6 +23,11 @@ The objective is to develop demonstrable competence across:
 
 # Programme Control Files
 
+## Master Atlas
+[00-programme/ACE_ATLAS.md](./00-programme/ACE_ATLAS.md)
+
+**Start here.** Single-view programme atlas covering courses, links, sequence, hours, target dates, evidence gates and current status.
+
 ## Roadmap
 [ACE_ROADMAP.md](./ACE_ROADMAP.md)
 
@@ -143,3 +148,4 @@ Target Professional Identity
 Accelerated Computing & AI Infrastructure Efficiency Engineer
 
 The programme is complete when this title is defensible through reproducible engineering evidence rather than course completion alone.
+
