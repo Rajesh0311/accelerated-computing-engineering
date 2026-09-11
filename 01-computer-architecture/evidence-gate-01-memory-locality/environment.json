@@ -1,0 +1,50 @@
+﻿{
+    "captured_at_utc":  "2026-09-11T12:55:33.2260745Z",
+    "experiment_id":  "ACE-EG01-MEMORY-001",
+    "git_head_before_experiment":  "18ba95c2dc4dfbc5b90ea79b3996831a11c06443",
+    "operating_system":  {
+                             "platform":  "Windows",
+                             "version":  "Microsoft Windows NT 10.0.26200.0",
+                             "build":  "26200"
+                         },
+    "processor":  {
+                      "name":  "Intel(R) Core(TM) Ultra 9 275HX",
+                      "manufacturer":  "GenuineIntel",
+                      "physical_cores":  24,
+                      "logical_processors":  24,
+                      "reported_max_clock_mhz":  2700,
+                      "reported_l2_kib":  40960,
+                      "reported_l3_kib":  36864,
+                      "hybrid_core_mapping":  "NOT ESTABLISHED"
+                  },
+    "memory":  [
+                   {
+                       "manufacturer":  "Micron Technology",
+                       "capacity_bytes":  17179869184,
+                       "speed_mt_s":  5600,
+                       "configured_speed_mt_s":  5600
+                   },
+                   {
+                       "manufacturer":  "Micron Technology",
+                       "capacity_bytes":  17179869184,
+                       "speed_mt_s":  5600,
+                       "configured_speed_mt_s":  5600
+                   }
+               ],
+    "power_plan":  "Power Scheme GUID: 24a49799-b137-4bfa-99df-990ef1542cb2  (Driver Booster Power Plan)",
+    "python_executable":  "C:\\Users\\rajes\\gpu-perf-lab\\venvs\\ace-architecture\\Scripts\\python.exe",
+    "python_version":  "Python 3.11.9",
+    "packages":  [
+                     "colorama==0.4.6",
+                     "iniconfig==2.3.0",
+                     "llvmlite==0.49.0",
+                     "numba==0.67.0",
+                     "numpy==2.4.6",
+                     "packaging==26.3",
+                     "pluggy==1.6.0",
+                     "psutil==7.2.2",
+                     "Pygments==2.21.0",
+                     "pytest==9.1.1"
+                 ],
+    "implementation_status":  "PREREGISTERED_NOT_EXECUTED"
+}
