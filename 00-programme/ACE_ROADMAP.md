@@ -1,7 +1,7 @@
 ﻿# Accelerated Computing Engineer Roadmap
 
-**Programme:** Accelerated Computing Engineer (ACE)  
-**Target completion:** July 2027  
+**Programme:** Accelerated Computing Engineer (ACE)
+**Target completion:** 30 September 2027
 **Primary objective:** Develop demonstrable competence across accelerated computing, GPU performance engineering, HPC, heterogeneous accelerators, compiler systems, distributed compute, and AI infrastructure efficiency.
 
 ---
@@ -14,7 +14,7 @@ The programme is complete only when:
 
 1. The core curriculum has been completed.
 2. The required engineering artefacts exist.
-3. All 12 competency evidence gates have been passed.
+3. All 16 competency evidence gates defined by the canonical ACE Atlas have been passed.
 4. A cross-accelerator capstone demonstrates practical competence.
 
 The operating loop is:
@@ -25,7 +25,7 @@ The operating loop is:
 
 # Phase 1 — Computer Architecture
 
-**Target:** August–September 2026  
+**Target:** August–September 2026
 **Expected effort:** ~40 hours
 
 ### Core course
@@ -50,7 +50,7 @@ Demonstrate measurable CPU/cache/memory effects through benchmarks and explain t
 
 # Phase 2 — Parallel Computing
 
-**Target:** September–October 2026  
+**Target:** September–October 2026
 **Expected effort:** ~45 hours
 
 ### Core course
@@ -76,7 +76,7 @@ Implement and benchmark a parallel workload and explain scaling efficiency and o
 
 # Phase 3 — High-Performance Computing
 
-**Target:** October 2026  
+**Target:** October 2026
 **Expected effort:** ~40 hours
 
 ### Core material
@@ -103,7 +103,7 @@ Implement both OpenMP and MPI workloads and demonstrate measurable parallel scal
 
 # Phase 4 — CUDA Core
 
-**Target:** October–November 2026  
+**Target:** October–November 2026
 **Expected effort:** ~53 hours
 
 ### Core material
@@ -134,7 +134,7 @@ Write correct nontrivial CUDA kernels without depending entirely on framework ab
 
 # Phase 5 — GPU Performance Engineering
 
-**Target:** November–December 2026  
+**Target:** November–December 2026
 **Expected effort:** ~67 hours
 
 ### Core tools
@@ -168,7 +168,7 @@ Take an inefficient GPU workload through:
 
 # Phase 6 — Advanced HPC
 
-**Target:** December 2026–January 2027  
+**Target:** December 2026–January 2027
 **Expected effort:** ~40 hours
 
 ### Core course
@@ -192,7 +192,7 @@ Explain and demonstrate the relationship between algorithm design, computation, 
 
 # Phase 7 — AMD ROCm / HIP
 
-**Target:** January 2027  
+**Target:** January 2027
 **Expected effort:** ~50 hours
 
 ### Core material
@@ -225,7 +225,7 @@ Run equivalent workloads on NVIDIA and AMD environments and explain meaningful p
 
 # Phase 8 — TPU / JAX / Compiler-First Accelerators
 
-**Target:** January–February 2027  
+**Target:** January–February 2027
 **Expected effort:** ~40 hours
 
 ### Core material
@@ -253,7 +253,7 @@ Execute a real workload on TPU, use JAX compilation/sharding, and explain how th
 
 # Phase 9 — Compiler Systems
 
-**Target:** February–March 2027  
+**Target:** February–March 2027
 **Expected effort:** ~70 hours
 
 ### Core material
@@ -283,7 +283,7 @@ Implement and benchmark a Triton kernel against a CUDA/PyTorch equivalent and ex
 
 # Phase 10 — Distributed Accelerators
 
-**Target:** March 2027  
+**Target:** March 2027
 **Expected effort:** ~25 hours
 
 ### Core material
@@ -308,7 +308,7 @@ Run or simulate a distributed GPU experiment and produce a scaling analysis.
 
 # Phase 11 — AI Workload Internals
 
-**Target:** April–May 2027  
+**Target:** April–May 2027
 **Expected effort:** ~110 hours
 
 ### Core material
@@ -339,7 +339,7 @@ Profile an actual transformer workload and connect model architecture to acceler
 
 # Phase 12 — Cross-Accelerator Capstone
 
-**Target:** May–July 2027  
+**Target:** May–July 2027
 **Expected effort:** 40+ hours
 
 ### Objective
@@ -392,9 +392,9 @@ Produce:
 
 # Target Professional Identity
 
-By July 2027 the goal is to be able to defend the title:
+By 30 September 2027 the goal is to be able to defend the title:
 
-## Accelerated Computing & AI Infrastructure Efficiency Engineer
+## Accelerated Compute Platform & AI Infrastructure Efficiency Engineer
 
 with demonstrated competence across:
 
@@ -419,16 +419,122 @@ CUDA is a major specialization, not the final identity.
 
 The long-term engineering stack is:
 
-**ALGORITHM  
-→ MODEL  
-→ COMPILER  
-→ KERNEL  
-→ ACCELERATOR  
-→ MEMORY  
-→ INTERCONNECT  
-→ CLUSTER  
-→ ENERGY  
-→ COST  
+**ALGORITHM
+→ MODEL
+→ COMPILER
+→ KERNEL
+→ ACCELERATOR
+→ MEMORY
+→ INTERCONNECT
+→ CLUSTER
+→ ENERGY
+→ COST
 → BUSINESS OUTCOME**
 
 The objective is to understand and optimize the complete chain.
+
+---
+
+# CUDA 13.4 / MPS V3 Research Delta
+
+**Decision date:** 11 September 2026
+**Classification:** ADD TO RESEARCH BACKLOG
+**Syllabus impact:** NO CHANGE
+**Atlas impact:** NO CHANGE
+**Commercial claim permitted:** NO
+
+## Authority
+
+The canonical programme definition is:
+
+1. `ACE_LOCKED_BASELINE.md`
+2. `ACE_ATLAS.md`
+3. This roadmap as a derived execution view
+4. `ACE_RESEARCH_BACKLOG.md` for intelligence-derived experiments
+
+Where an older roadmap statement conflicts with the locked baseline or Atlas, the locked baseline and Atlas prevail.
+
+## Decision
+
+CUDA Toolkit 13.4 introduces a valuable future experimental surface through Multi-Process Service V3, including named servers, namespaces, resource controls, streaming-multiprocessor partitioning and Linux cgroup-integrated GPU-memory controls.
+
+This does not justify a new course, a change to the current sequence or an immediate CUDA upgrade.
+
+The work enters the existing CUDA, GPU-performance, platform-engineering, observability and compute-economics programme layers.
+
+## Experiment sequence
+
+### Stage A — Windows-compatible concurrency precursor
+
+Build a reusable comparison harness for:
+
+1. Sequential GPU execution
+2. Unmanaged concurrent CUDA processes
+3. CUDA-stream concurrency
+
+Measure:
+
+- useful throughput
+- p50, p95 and p99 latency
+- GPU utilization
+- memory utilization
+- interference
+- numerical correctness
+- semantic equivalence
+- trace attribution
+- cost per valid execution
+
+### Stage B — MPS V3 feasibility gate
+
+Before claiming home-lab compatibility, verify:
+
+1. Native Linux availability
+2. R615-or-newer compatible NVIDIA driver
+3. CUDA 13.4 compatibility
+4. `nvidia-cuda-mps-control` availability
+5. RTX 5070 MPS V3 feature exposure
+6. Streaming-multiprocessor partition support
+7. cgroup v2 and GPU-memory-control support
+8. profiler and trace compatibility
+
+Failure at this gate is recorded as evidence and moves the experiment to suitable residency infrastructure.
+
+### Stage C — Governed shared-accelerator benchmark
+
+Compare:
+
+**sequential → unmanaged concurrency → controlled MPS V3 sharing**
+
+Evaluate whether controlled sharing improves useful throughput without violating:
+
+- correctness
+- numerical tolerance
+- latency service-level objectives
+- workload attribution
+- provenance integrity
+- NSDM/EDEP semantic equivalence
+
+## Placement
+
+- Stage A: GPU Performance Engineering / Streams and Concurrency
+- Stage B: Containers and GPU Runtime
+- Stage C: GPU Scheduling, Observability and Capacity Engineering
+- External execution where necessary: Axiz, MTN, Telkom, Solcon or other suitable residency infrastructure
+
+## Permanent evidence invariant
+
+Every accelerated-computing result must record:
+
+**hardware → operating system → driver → toolkit → compiler → libraries → workload → policy → trace → correctness → latency → throughput → failure → cost**
+
+For NSDM/EDEP workloads, also record:
+
+- Case or workload identifier
+- Decision-trace identifier
+- provenance association
+- semantic-equivalence result
+- abstention or UNKNOWN-state preservation
+- tenant or workload attribution
+- auditability outcome
+
+Performance evidence is invalid when the toolchain, correctness result or trace identity is missing.
