@@ -1,0 +1,24 @@
+{
+  "experiment_id": "ACE-EG01-MEMORY-001",
+  "timestamp_utc": "20260911T130509Z",
+  "git_head": "d3e037b727e3d4956549dd0ed0549689216b8fff",
+  "mode": "smoke",
+  "seed": 20260911,
+  "cpu_affinity": 0,
+  "sizes_bytes": [
+    16384,
+    1048576,
+    67108864
+  ],
+  "trials_per_condition": 3,
+  "target_accesses": 250000,
+  "eviction_bytes": 67108864,
+  "conditions": [
+    "A_DIRECT",
+    "B_SEQ_INDEX",
+    "C_RANDOM_INDEX",
+    "D_POINTER_CHASE"
+  ],
+  "rows": 36,
+  "eviction_guard": 38797312.0
+}
