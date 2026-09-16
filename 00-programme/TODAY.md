@@ -1,133 +1,126 @@
-﻿# ACE — Today
+# ACE Today
 
-**Date:** 11 September 2026
-**Session:** ACE-2026-09-11-A
-**Programme layer:** Foundation Sprint 0
+**Date:** 16 September 2026
+**Session:** ACE-2026-09-16-A
+**Programme layer:** Accelerated Computing Engineering
 **Active technical phase:** Phase 1 — Computer Architecture
 **Current course:** Princeton — Computer Architecture
-**Current evidence gate:** Gate 1 — CPU/cache/locality/memory-performance behaviour
+**Current evidence position:** Gate 1 — PASSED
+**Sprint status:** ACTIVE
 **Target completion:** 30 September 2027
 
 ---
 
 # Session Objective
 
-Convert verified CUDA 13.4 and MPS V3 intelligence into a controlled ACE research decision without interrupting the locked learning sequence.
+Consolidate the completed memory-locality evidence gate, synchronize the programme records and resume the remaining Computer Architecture learning and diagnostic work.
 
 ---
 
-# Decision to Lock
+# Completed Evidence
 
-- [x] Keep the current ACE learning sequence unchanged.
-- [x] Do not upgrade CUDA during this session.
-- [x] Do not run MPS V3 during this session.
-- [x] Add the Windows concurrency precursor to the research backlog.
-- [x] Put MPS V3 behind a native-Linux and hardware-feasibility gate.
-- [x] Require toolchain, correctness and trace metadata for every result.
-- [x] Preserve NSDM/EDEP semantic equivalence as a hard constraint.
-- [x] Prohibit commercial claims before E3 evidence.
-
----
-
-# Session Work
-
-## Learn
-
-- [x] Distinguish vendor release evidence from independently reproduced evidence.
-- [x] Distinguish resource isolation from a multi-tenant security boundary.
-- [x] Identify the operating-system and driver constraints governing MPS V3.
-- [x] Extract the constraint-aware benchmarking method from the NIM result.
-
-## Build
-
-- [x] Create `ACE_RESEARCH_BACKLOG.md`.
-- [x] Add the CUDA 13.4/MPS V3 delta to `ACE_ROADMAP.md`.
-- [x] Validate the Git diff.
-- [x] Commit the roadmap intake as one isolated documentation change.
-
-## Prove
-
-Required observable evidence for this session:
-
-- [x] Source-grounded engineering decision
-- [x] Falsifiable future experiment
-- [x] Explicit feasibility gate
-- [x] Numerical and semantic correctness invariants
-- [x] Commercialization boundary
-- [x] Clean Git commit
+- [x] Preregistered the memory-locality experiment.
+- [x] Implemented and tested the benchmark.
+- [x] Completed the smoke-validation run.
+- [x] Completed the full 468-observation run.
+- [x] Recorded zero checksum failures.
+- [x] Supported H1 at all three registered decision sizes.
+- [x] Supported H3 at all three registered decision sizes.
+- [x] Completed the CPU-to-GPU transfer assessment.
+- [x] Completed the final Gate 1 synthesis.
+- [x] Committed and published the evidence as `f97cdc8`.
+- [x] Adjudicated Evidence Gate 1 as `PASS`.
 
 ---
 
-# Technical Conclusion
+# Intelligence Decision
 
-The actionable value of CUDA 13.4 is not a reason to chase a new toolkit immediately.
+The recent vLLM and Kueue findings strengthen the future ACE experimental methodology.
 
-It creates a future ACE experiment about shared-accelerator efficiency:
+Future serving and scheduling evidence should test:
 
-**Can controlled GPU sharing improve useful throughput without damaging correctness, latency, attribution or auditability?**
+1. request conservation;
+2. scheduling progress and fairness;
+3. semantic conservation;
+4. resource-accounting conservation;
+5. runtime and backend provenance;
+6. performance-regression invariants.
 
-The home lab can first build the benchmark methodology through sequential, unmanaged-process and CUDA-stream comparisons.
+These are research-backlog additions.
 
-MPS V3 becomes an additional comparator only after native-Linux, driver and hardware compatibility are demonstrated.
+They do not authorize:
 
----
-
-# Current Evidence Gate
-
-## Gate 1 — CPU / Cache / Memory Behaviour
-
-The active engineering gate remains unchanged.
-
-Required evidence eventually includes:
-
-- [ ] Sequential versus random memory-access experiment
-- [ ] Working-set/cache-size experiment
-- [ ] Stable timing results
-- [ ] Reproducible benchmark code
-- [ ] Written interpretation connecting results to architecture
-
-Status: **IN PROGRESS**
+- a vLLM installation now;
+- a Kueue installation now;
+- an immediate CUDA toolchain change;
+- an Atlas expansion;
+- an interruption to Phase 1.
 
 ---
 
-# Session Log
+# Current Engineering Position
 
-## Start
+## Evidence Gate 1
 
-Time:
+**Status:** PASSED
 
-## Finish
+The evidence demonstrates:
 
-Time:
+- controlled sequential and randomized memory-access measurement;
+- working-set scaling;
+- repeatable timing;
+- correctness validation;
+- locality and dependency analysis;
+- latency-versus-throughput interpretation;
+- bounded CPU-to-GPU transfer;
+- explicit treatment of threats and limitations.
 
-## Focused study time
+## Computer Architecture Sprint
 
-Hours:
+**Status:** ACTIVE
 
-## What I learned
+Passing Gate 1 does not complete the sprint.
 
--
+Remaining requirements include:
 
-## What I built
+- [ ] Complete the remaining Princeton learning material.
+- [ ] Complete and organize architecture notes.
+- [ ] Review latency, throughput, branch prediction, out-of-order execution and SIMD.
+- [ ] Complete the sprint-level synthesis.
+- [ ] Pass the final diagnostic quiz without notes.
+- [ ] Reassess Computer Architecture competency.
+- [ ] Update the sprint status only after every exit criterion passes.
 
--
+---
 
-## What the evidence showed
+# Current Study Method
 
--
+For every important concept:
 
-## What I got wrong or misunderstood
+**CONCEPT → MECHANISM → HARDWARE CONSEQUENCE → PERFORMANCE CONSEQUENCE → EXPERIMENT → INTERPRETATION**
 
--
+Predict the outcome before checking the explanation.
 
-## Next action
+Definitions alone do not demonstrate competence. Explain the mechanism and identify an experiment that could falsify the explanation.
 
-Validate and commit the roadmap-intelligence intake, then return to the current Foundation Sprint 0 and Computer Architecture work.
+---
+
+# Next Learning Session
+
+Begin with a diagnostic review of:
+
+1. latency versus throughput;
+2. branch prediction and misprediction cost;
+3. out-of-order execution and dependency limits;
+4. SIMD versus scalar execution;
+5. CPU and GPU memory-hierarchy relationships.
+
+Then return to the next unfinished Princeton course unit.
 
 ---
 
 # End-of-Session Rule
 
-Do not count this session as complete until the roadmap and backlog changes pass Git validation and are committed.
+Do not mark the Computer Architecture sprint complete until the remaining learning, notes, sprint synthesis, diagnostic assessment, competency reassessment and Git evidence requirements pass.
 
 **LEARN → BUILD → MEASURE → EXPLAIN → IMPROVE → COMMIT → PROVE**

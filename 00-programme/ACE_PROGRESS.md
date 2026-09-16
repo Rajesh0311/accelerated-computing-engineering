@@ -1,10 +1,10 @@
-﻿# Accelerated Computing Engineer — Progress Dashboard
+# Accelerated Computing Engineer — Progress Dashboard
 
-**Programme:** Accelerated Computing Engineer (ACE)  
-**Start date:** 18 August 2026  
-**Target completion:** 31 July 2027  
-**Target study intensity:** ~15 focused hours/week  
-**Primary evidence repository:** gpu-perf-engineering-resources  
+**Programme:** Accelerated Compute Platform & AI Infrastructure Efficiency Engineer
+**Start date:** 18 August 2026
+**Target completion:** 30 September 2027
+**Target study intensity:** ~15 focused hours/week core + interleaved platform practice
+**Primary evidence repository:** accelerated-computing-engineering
 **Current status:** ACTIVE
 
 ---
@@ -27,19 +27,19 @@ Able to reason across:
 |---|---:|---:|
 | Programme completion | 0% | 100% |
 | Core study hours completed | 0 | ~620 |
-| Evidence gates passed | 0 | 12 |
+| Evidence gates passed | 1 | 16 |
 | Major phases completed | 0 | 12 |
 | Capstone status | NOT STARTED | PASSED |
-| Target completion | — | 31 July 2027 |
+| Target completion | — | 30 September 2027 |
 
 ---
 
 # Current Focus
 
-**Current Phase:** Phase 1 — Computer Architecture  
-**Current Course:** Princeton — Computer Architecture  
-**Current Evidence Gate:** CPU/cache/memory benchmark  
-**Current Priority:** Build the architectural mental model beneath accelerated computing.
+**Current Phase:** Phase 1 — Computer Architecture
+**Current Course:** Princeton — Computer Architecture
+**Current Evidence Gate:** Gate 1 — PASSED
+**Current Priority:** Complete the remaining Computer Architecture learning, notes and final diagnostic assessment.
 
 ---
 
@@ -81,9 +81,9 @@ Able to reason across:
 
 ## Phase 1 — Computer Architecture
 
-**Status:** ACTIVE  
-**Planned hours:** 40  
-**Completed:** 0  
+**Status:** ACTIVE
+**Planned hours:** 40
+**Completed:** 0
 **Progress:** 0%
 
 ### Required competence
@@ -100,14 +100,14 @@ Able to reason across:
 ### Evidence Gate 1
 **CPU/cache/memory performance experiment**
 
-Status: **NOT PASSED**
+Status: **PASSED**
 
 ---
 
 ## Phase 2 — Parallel Computing
 
-**Status:** QUEUED  
-**Planned hours:** 45  
+**Status:** QUEUED
+**Planned hours:** 45
 **Completed:** 0
 
 ### Evidence Gate 2
@@ -119,8 +119,8 @@ Status: **NOT PASSED**
 
 ## Phase 3 — High-Performance Computing
 
-**Status:** QUEUED  
-**Planned hours:** 40  
+**Status:** QUEUED
+**Planned hours:** 40
 **Completed:** 0
 
 ### Evidence Gate 3
@@ -132,8 +132,8 @@ Status: **NOT PASSED**
 
 ## Phase 4 — CUDA Core
 
-**Status:** QUEUED  
-**Planned hours:** 53  
+**Status:** QUEUED
+**Planned hours:** 53
 **Completed:** 0
 
 ### Evidence Gate 4
@@ -145,8 +145,8 @@ Status: **NOT PASSED**
 
 ## Phase 5 — GPU Performance Engineering
 
-**Status:** QUEUED  
-**Planned hours:** 67  
+**Status:** QUEUED
+**Planned hours:** 67
 **Completed:** 0
 
 ### Evidence Gate 5
@@ -160,8 +160,8 @@ Status: **NOT PASSED**
 
 ## Phase 6 — Advanced HPC
 
-**Status:** QUEUED  
-**Planned hours:** 40  
+**Status:** QUEUED
+**Planned hours:** 40
 **Completed:** 0
 
 ### Evidence Gate 6
@@ -173,8 +173,8 @@ Status: **NOT PASSED**
 
 ## Phase 7 — AMD ROCm / HIP
 
-**Status:** QUEUED  
-**Planned hours:** 50  
+**Status:** QUEUED
+**Planned hours:** 50
 **Completed:** 0
 
 ### Evidence Gate 7
@@ -186,8 +186,8 @@ Status: **NOT PASSED**
 
 ## Phase 8 — TPU / JAX
 
-**Status:** QUEUED  
-**Planned hours:** 40  
+**Status:** QUEUED
+**Planned hours:** 40
 **Completed:** 0
 
 ### Evidence Gate 8
@@ -199,8 +199,8 @@ Status: **NOT PASSED**
 
 ## Phase 9 — Compiler Systems
 
-**Status:** QUEUED  
-**Planned hours:** 70  
+**Status:** QUEUED
+**Planned hours:** 70
 **Completed:** 0
 
 ### Evidence Gate 9
@@ -212,8 +212,8 @@ Status: **NOT PASSED**
 
 ## Phase 10 — Distributed Accelerators
 
-**Status:** QUEUED  
-**Planned hours:** 25  
+**Status:** QUEUED
+**Planned hours:** 25
 **Completed:** 0
 
 ### Evidence Gate 10
@@ -225,8 +225,8 @@ Status: **NOT PASSED**
 
 ## Phase 11 — AI Workload Internals
 
-**Status:** QUEUED  
-**Planned hours:** 110  
+**Status:** QUEUED
+**Planned hours:** 110
 **Completed:** 0
 
 ### Evidence Gate 11
@@ -238,8 +238,8 @@ Status: **NOT PASSED**
 
 ## Phase 12 — Cross-Accelerator Capstone
 
-**Status:** QUEUED  
-**Planned hours:** 40+  
+**Status:** QUEUED
+**Planned hours:** 40+
 **Completed:** 0
 
 ### Evidence Gate 12
@@ -313,7 +313,7 @@ The programme is not complete because all courses show DONE.
 
 The programme is complete when:
 
-- [ ] All 12 evidence gates pass
+- [ ] All 16 evidence gates pass
 - [ ] Core labs are committed
 - [ ] Benchmark evidence exists
 - [ ] Profiling evidence exists

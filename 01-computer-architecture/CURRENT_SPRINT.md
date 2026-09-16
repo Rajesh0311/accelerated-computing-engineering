@@ -1,11 +1,11 @@
-﻿# ACE Sprint 01 — Computer Architecture
+# ACE Sprint 01 — Computer Architecture
 
-**Phase:** 1 of 12  
-**Status:** ACTIVE  
-**Start:** 18 August 2026  
-**Target completion:** September 2026  
-**Planned effort:** ~40 focused hours  
-**Evidence Gate:** CPU / Cache / Memory Behaviour
+**Phase:** 1 of 12
+**Status:** ACTIVE
+**Start:** 18 August 2026
+**Target completion:** September 2026
+**Planned effort:** ~40 focused hours
+**Evidence Gate:** Gate 1 — PASSED
 
 ---
 
@@ -135,14 +135,18 @@ Build experiments that demonstrate real architectural effects.
 
 Required:
 
-- [ ] Sequential memory access benchmark
-- [ ] Random memory access benchmark
-- [ ] Working-set/cache-size experiment
-- [ ] Repeatable timing methodology
-- [ ] Results captured
-- [ ] Results interpreted
-- [ ] Architecture mechanism explained
-- [ ] Connection to future GPU behaviour documented
+- [x] Sequential memory access benchmark
+- [x] Random memory access benchmark
+- [x] Working-set/cache-size experiment
+- [x] Repeatable timing methodology
+- [x] Results captured
+- [x] Results interpreted
+- [x] Architecture mechanism explained
+- [x] Connection to future GPU behaviour documented
+
+**Gate result:** PASSED
+**Evidence commit:** `f97cdc8`
+**Sprint status:** ACTIVE — passing Gate 1 does not complete the full Computer Architecture sprint.
 
 ---
 
@@ -340,4 +344,3 @@ Target:
 Computer Architecture — Level 3
 
 I should finish this sprint able to use processor architecture to explain observed performance rather than merely define architecture terminology.
-
