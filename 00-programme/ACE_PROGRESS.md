@@ -1,8 +1,10 @@
 # Accelerated Computing Engineer — Progress Dashboard
 
 **Programme:** Accelerated Compute Platform & AI Infrastructure Efficiency Engineer
-**Start date:** 18 August 2026
-**Target completion:** 30 September 2027
+**Initial preparatory study (historical):** 18 August 2026
+**Foundation Sprint 0 (replanned):** 7 October–30 November 2026  
+**Formal ACE core start:** 1 December 2026  
+**Target completion:** 31 October 2027
 **Target study intensity:** ~15 focused hours/week core + interleaved platform practice
 **Primary evidence repository:** accelerated-computing-engineering
 **Current status:** ACTIVE
@@ -30,11 +32,15 @@ Able to reason across:
 | Evidence gates passed | 1 | 16 |
 | Major phases completed | 0 | 12 |
 | Capstone status | NOT STARTED | PASSED |
-| Target completion | — | 30 September 2027 |
+| Target completion | — | 31 October 2027 |
 
 ---
 
 # Current Focus
+
+The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](ACE_LOCKED_BASELINE.md#schedule-lock) governs the dates. The formal core runs from 1 December 2026 through 31 October 2027, with integrated capstone work and evidence closure in September–October 2027. Course hours, order, prerequisites and evidence requirements remain unchanged. Target windows permit interleaving only after prerequisites pass; unfinished work moves later rather than being compressed.
+
+Earlier architecture study and the recorded Gate 1 pass remain credited. ACTIVE identifies the unfinished technical focus, not an assertion that the formal core has begun. Remaining architecture work is scheduled for December 2026; Foundation Sprint 0 takes priority before core entry.
 
 **Current Phase:** Phase 1 — Computer Architecture
 **Current Course:** Princeton — Computer Architecture
@@ -45,35 +51,37 @@ Able to reason across:
 
 # Master Execution Board
 
+This board retains its existing course rows. The [Atlas](ACE_ATLAS.md) supplies the complete interleaved schedule, including CS205A, selected resources and CP1–CP8; those windows also move with the formal core.
+
 | # | Phase / Course | Score | Planned Hours | Completed Hours | Target Window | Evidence Gate | Status |
 |---:|---|---:|---:|---:|---|---|---|
-| 1 | Princeton — Computer Architecture | 9.5/10 | 40 | 0 | Aug–Sep 2026 | CPU/cache/memory benchmark | ACTIVE |
-| 2 | Stanford CS149 — Parallel Computing | 10/10 | 45 | 0 | Sep–Oct 2026 | Parallel scaling benchmark | QUEUED |
-| 3 | CU Boulder — HPC Foundations | 9.5/10 | 20 | 0 | Oct 2026 | HPC workload analysis | QUEUED |
-| 4 | CU Boulder — Efficient Programming | 9.5/10 | 10 | 0 | Oct 2026 | Performance optimization experiment | QUEUED |
-| 5 | CU Boulder — Parallel Computing with MPI | 9.5/10 | 10 | 0 | Oct 2026 | MPI scaling experiment | QUEUED |
-| 6 | NVIDIA — CUDA Introduction | 9/10 | 3 | 0 | Oct 2026 | First CUDA kernel | QUEUED |
-| 7 | NVIDIA — Modern CUDA C++ | 10/10 | 15 | 0 | Oct–Nov 2026 | CUDA kernel implementation | QUEUED |
-| 8 | NVIDIA — CUDA Programming Guide + Labs | 10/10 | 35 | 0 | Nov 2026 | Nontrivial CUDA workload | QUEUED |
-| 9 | NVIDIA — Nsight Systems | 10/10 | 10 | 0 | Nov 2026 | Timeline-based diagnosis | QUEUED |
-| 10 | NVIDIA — Nsight Compute | 10/10 | 15 | 0 | Nov 2026 | Kernel-level diagnosis | QUEUED |
-| 11 | CUDA Memory Optimization Lab | 10/10 | 15 | 0 | Nov–Dec 2026 | Memory optimization result | QUEUED |
-| 12 | CUDA Streams / Async / Graphs | 9.5/10 | 15 | 0 | Dec 2026 | Latency-hiding experiment | QUEUED |
-| 13 | PyTorch Custom CUDA Extension | 9.5/10 | 12 | 0 | Dec 2026 | Native accelerated PyTorch op | QUEUED |
-| 14 | UC Berkeley CS267 — Parallel Computers | 10/10 | 40 | 0 | Dec 2026–Jan 2027 | HPC scalability analysis | QUEUED |
-| 15 | AMD AI Academy | 9.5/10 | 10 | 0 | Jan 2027 | ROCm stack understanding | QUEUED |
-| 16 | AMD HIP / ROCm Programming | 10/10 | 20 | 0 | Jan 2027 | HIP kernel implementation | QUEUED |
-| 17 | CUDA → HIP Port + ROCm Profiling | 10/10 | 20 | 0 | Jan 2027 | NVIDIA vs AMD benchmark | QUEUED |
-| 18 | Google TPU Architecture + JAX | 9.5/10 | 20 | 0 | Feb 2027 | JAX accelerator workload | QUEUED |
-| 19 | JAX on TPU / Scaling | 9.5/10 | 20 | 0 | Feb 2027 | TPU sharding/scaling experiment | QUEUED |
-| 20 | LLVM Compiler Fundamentals | 9.5/10 | 25 | 0 | Feb–Mar 2027 | LLVM IR / compiler artifact | QUEUED |
-| 21 | Triton Kernel Programming | 10/10 | 25 | 0 | Mar 2027 | Triton vs CUDA benchmark | QUEUED |
-| 22 | PyTorch Compiler / torch.compile | 9.5/10 | 20 | 0 | Mar 2027 | Compiler-generated workload analysis | QUEUED |
-| 23 | NVIDIA NCCL + Distributed GPU Systems | 10/10 | 25 | 0 | Mar–Apr 2027 | Multi-GPU scaling analysis | QUEUED |
-| 24 | Stanford CS336 — Language Modeling from Scratch | 10/10 | 60 | 0 | Apr–May 2027 | Transformer profiling study | QUEUED |
-| 25 | Stanford CME 295 — Selected Modules | 9/10 | 15 | 0 | May 2027 | LLM systems synthesis | QUEUED |
-| 26 | Full Stack Deep Learning | 10/10 | 35 | 0 | May–Jun 2027 | Production ML systems artifact | QUEUED |
-| 27 | Cross-Accelerator Capstone | 10/10 | 40+ | 0 | Jun–Jul 2027 | Final cross-platform comparison | QUEUED |
+| 1 | Princeton — Computer Architecture | 9.5/10 | 40 | 0 | Dec 2026 | CPU/cache/memory benchmark | ACTIVE |
+| 2 | Stanford CS149 — Parallel Computing | 10/10 | 45 | 0 | Dec 2026–Jan 2027 | Parallel scaling benchmark | QUEUED |
+| 3 | CU Boulder — HPC Foundations | 9.5/10 | 20 | 0 | Jan 2027 | HPC workload analysis | QUEUED |
+| 4 | CU Boulder — Efficient Programming | 9.5/10 | 10 | 0 | Jan 2027 | Performance optimization experiment | QUEUED |
+| 5 | CU Boulder — Parallel Computing with MPI | 9.5/10 | 10 | 0 | Jan 2027 | MPI scaling experiment | QUEUED |
+| 6 | NVIDIA — CUDA Introduction | 9/10 | 3 | 0 | Jan 2027 | First CUDA kernel | QUEUED |
+| 7 | NVIDIA — Modern CUDA C++ | 10/10 | 15 | 0 | Jan–Feb 2027 | CUDA kernel implementation | QUEUED |
+| 8 | NVIDIA — CUDA Programming Guide + Labs | 10/10 | 35 | 0 | Feb 2027 | Nontrivial CUDA workload | QUEUED |
+| 9 | NVIDIA — Nsight Systems | 10/10 | 10 | 0 | Feb 2027 | Timeline-based diagnosis | QUEUED |
+| 10 | NVIDIA — Nsight Compute | 10/10 | 15 | 0 | Feb 2027 | Kernel-level diagnosis | QUEUED |
+| 11 | CUDA Memory Optimization Lab | 10/10 | 15 | 0 | Feb–Mar 2027 | Memory optimization result | QUEUED |
+| 12 | CUDA Streams / Async / Graphs | 9.5/10 | 15 | 0 | Mar 2027 | Latency-hiding experiment | QUEUED |
+| 13 | PyTorch Custom CUDA Extension | 9.5/10 | 12 | 0 | Mar 2027 | Native accelerated PyTorch op | QUEUED |
+| 14 | UC Berkeley CS267 — Parallel Computers | 10/10 | 40 | 0 | Mar–Apr 2027 | HPC scalability analysis | QUEUED |
+| 15 | AMD AI Academy | 9.5/10 | 10 | 0 | Apr 2027 | ROCm stack understanding | QUEUED |
+| 16 | AMD HIP / ROCm Programming | 10/10 | 20 | 0 | Apr 2027 | HIP kernel implementation | QUEUED |
+| 17 | CUDA → HIP Port + ROCm Profiling | 10/10 | 20 | 0 | Apr 2027 | NVIDIA vs AMD benchmark | QUEUED |
+| 18 | Google TPU Architecture + JAX | 9.5/10 | 20 | 0 | May 2027 | JAX accelerator workload | QUEUED |
+| 19 | JAX on TPU / Scaling | 9.5/10 | 20 | 0 | May 2027 | TPU sharding/scaling experiment | QUEUED |
+| 20 | LLVM Compiler Fundamentals | 9.5/10 | 25 | 0 | May–Jun 2027 | LLVM IR / compiler artifact | QUEUED |
+| 21 | Triton Kernel Programming | 10/10 | 25 | 0 | Jun 2027 | Triton vs CUDA benchmark | QUEUED |
+| 22 | PyTorch Compiler / torch.compile | 9.5/10 | 20 | 0 | Jun 2027 | Compiler-generated workload analysis | QUEUED |
+| 23 | NVIDIA NCCL + Distributed GPU Systems | 10/10 | 25 | 0 | Jun–Jul 2027 | Multi-GPU scaling analysis | QUEUED |
+| 24 | Stanford CS336 — Language Modeling from Scratch | 10/10 | 60 | 0 | Jul–Aug 2027 | Transformer profiling study | QUEUED |
+| 25 | Stanford CME 295 — Selected Modules | 9/10 | 15 | 0 | Aug 2027 | LLM systems synthesis | QUEUED |
+| 26 | Full Stack Deep Learning | 10/10 | 35 | 0 | Aug–Sep 2027 | Production ML systems artifact | QUEUED |
+| 27 | Cross-Accelerator Capstone | 10/10 | 40+ | 0 | Sep–Oct 2027 | Final cross-platform comparison | QUEUED |
 
 ---
 
@@ -292,18 +300,21 @@ Status: **NOT PASSED**
 
 | Month | Intended State |
 |---|---|
-| Aug 2026 | Architecture foundation started |
-| Sep 2026 | Architecture complete; CS149 active |
-| Oct 2026 | Parallel/HPC foundation established; CUDA begins |
-| Nov 2026 | CUDA core + profiling active |
-| Dec 2026 | GPU performance engineering demonstrated |
-| Jan 2027 | Advanced HPC + AMD portability |
-| Feb 2027 | TPU/JAX + compiler fundamentals |
-| Mar 2027 | Triton/PyTorch compiler + distributed accelerators |
-| Apr 2027 | CS336 / LLM internals |
-| May 2027 | CS336 + CME295 + production systems |
-| Jun 2027 | FSDL complete; capstone active |
-| Jul 2027 | Capstone complete; ACE evidence review |
+| Aug–Sep 2026 (historical) | Architecture preparation began 18 August; Gate 1 passed 16 September |
+| 7 Oct–30 Nov 2026 | Replanned Foundation Sprint 0; retain completed preparation |
+| 1 Dec 2026 | Foundation competence gate and formal core entry |
+| Dec 2026 | Architecture complete; CS149 active |
+| Jan 2027 | Parallel/HPC foundation established; CUDA begins |
+| Feb 2027 | CUDA core + profiling active |
+| Mar 2027 | GPU performance engineering demonstrated |
+| Apr 2027 | Advanced HPC + AMD portability |
+| May 2027 | TPU/JAX + compiler fundamentals |
+| Jun 2027 | Triton/PyTorch compiler + distributed accelerators |
+| Jul 2027 | CS336 / LLM internals |
+| Aug 2027 | CS336 + CME295 + production systems; capstone preparation |
+| Sep 2027 | FSDL complete; capstone active |
+| Oct 2027 | Capstone complete; ACE evidence review |
+| 31 Oct 2027 | Target programme completion after all 16 evidence gates pass |
 
 ---
 
@@ -330,7 +341,7 @@ The programme is complete when:
 
 # Final Goal
 
-**Target date:** 31 July 2027
+**Target date:** 31 October 2027
 
 At completion I should be able to take an unfamiliar computational workload and:
 

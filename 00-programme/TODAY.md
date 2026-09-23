@@ -1,17 +1,28 @@
 # ACE Today
 
-**Date:** 16 September 2026
-**Session:** ACE-2026-09-16-A
+**Last recorded learning-session date:** 16 September 2026
+**Last recorded learning session:** ACE-2026-09-16-A
+**Schedule updated:** 23 September 2026
+**Foundation Sprint 0 (replanned):** 7 October–30 November 2026  
+**Formal ACE core start:** 1 December 2026  
 **Programme layer:** Accelerated Computing Engineering
 **Active technical phase:** Phase 1 — Computer Architecture
 **Current course:** Princeton — Computer Architecture
 **Current evidence position:** Gate 1 — PASSED
 **Sprint status:** ACTIVE
-**Target completion:** 30 September 2027
+**Target completion:** 31 October 2027
 
 ---
 
-# Session Objective
+# Schedule Control
+
+The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](ACE_LOCKED_BASELINE.md#schedule-lock) governs the dates. The formal core runs from 1 December 2026 through 31 October 2027, with integrated capstone work and evidence closure in September–October 2027. Course hours, order, prerequisites and evidence requirements remain unchanged. Target windows permit interleaving only after prerequisites pass; unfinished work moves later rather than being compressed.
+
+Earlier architecture study and the recorded Gate 1 pass remain credited. ACTIVE identifies the unfinished technical focus, not an assertion that the formal core has begun. Remaining architecture work is scheduled for December 2026; Foundation Sprint 0 takes priority before core entry.
+
+No new learning session or evidence completion is implied by this schedule update. The objective and completed work below describe the last recorded session; the next core learning session follows the revised December window.
+
+# Last Recorded Session Objective
 
 Consolidate the completed memory-locality evidence gate, synchronize the programme records and resume the remaining Computer Architecture learning and diagnostic work.
 
@@ -105,7 +116,7 @@ Definitions alone do not demonstrate competence. Explain the mechanism and ident
 
 ---
 
-# Next Learning Session
+# Next Core Learning Session — December 2026
 
 Begin with a diagnostic review of:
 

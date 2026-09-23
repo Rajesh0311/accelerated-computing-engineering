@@ -2,10 +2,11 @@
 
 **Status:** LOCKED  
 **Lock date:** 7 September 2026  
+**Schedule revision:** 23 September 2026 — deferred due to unforeseen circumstances  
 **Programme:** Accelerated Compute Platform & AI Infrastructure Efficiency Engineer  
-**Foundation Sprint 0:** 7 September 2026 – 31 October 2026  
-**Formal ACE core start:** 1 November 2026  
-**Target completion:** 30 September 2027  
+**Foundation Sprint 0:** 7 October 2026 – 30 November 2026  
+**Formal ACE core start:** 1 December 2026  
+**Target completion:** 31 October 2027  
 
 ---
 
@@ -33,7 +34,7 @@ ACE must build competence across numerical computing, computer architecture, par
 
 # Foundation Sprint 0 — Mandatory Prerequisite Layer
 
-Foundation Sprint 0 runs from 7 September through 31 October 2026.
+The replanned Foundation Sprint 0 work window runs from 7 October through 30 November 2026. This preserves the original 55 calendar days allocated to foundation work. Preparation already completed under the original 7 September start remains credited; its historical dates are not rewritten.
 
 Its purpose is to remove avoidable weakness before the accelerated-computing core begins.
 
@@ -66,7 +67,7 @@ Modern C++, Bash, GCC/Clang, Make/CMake, GDB and `perf` are competence-driven ra
 
 ## Foundation completion rule
 
-1 November is a **competence gate**, not a certificate gate.
+1 December 2026 is a **competence gate**, not a certificate gate.
 
 Outstanding formal certificates may be completed after Coursera Plus renewal if the required engineering competence has already been demonstrated.
 
@@ -229,19 +230,29 @@ Prestige, novelty, social-media enthusiasm, a free certificate or simple availab
 
 # Schedule Lock
 
-## 7 September – 31 October 2026
+## Schedule reconciliation — 23 September 2026
+
+Unforeseen circumstances move the formal core start from 1 November to 1 December 2026 and the completion target from 30 September to 31 October 2027. The curriculum lock dated 7 September 2026 remains in force.
+
+Some derived documents still used the superseded September 2026–July 2027 core calendar. Those detailed course and platform windows are rebased by three calendar months to December 2026–October 2027, aligning them with the revised locked baseline. This preserves the eleven-month core envelope and the existing course-window durations; it does not squeeze the old sequence into a shorter period.
+
+Architecture study began on 18 August 2026 and Gate 1 passed on 16 September 2026. These are historical achievements, not formal core start dates. The remaining architecture work has a December 2026 target, retaining the Atlas's full 40-hour allocation without requiring completed evidence to be repeated. Foundation work already completed is likewise retained.
+
+The existing study intensity, hours, curriculum order and prerequisite gates remain unchanged. Overlapping windows allow the existing interleaved study model, not permission to skip prerequisites. Capstone preparation may begin in August 2027; integration and final evidence closure occupy September–October 2027. If availability or prerequisite evidence is insufficient, move dependent work and completion later rather than compressing hours or weakening gates.
+
+## 7 October – 30 November 2026
 Foundation Sprint 0
 
-## 1 November 2026
+## 1 December 2026
 Formal ACE accelerated-computing core begins
 
-## November 2026 – August 2027
+## December 2026 – September 2027
 Core accelerated-computing, heterogeneous accelerator, compiler, distributed and ML-systems progression with the compute-platform overlay interleaved
 
-## August – September 2027
+## September – October 2027
 Integrated platform work, final evidence closure and heterogeneous capstone
 
-## 30 September 2027
+## 31 October 2027
 Target programme completion
 
 Depth and evidence take precedence over preserving an obsolete earlier completion date.

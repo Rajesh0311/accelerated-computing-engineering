@@ -1,8 +1,12 @@
 ﻿# Accelerated Computing Engineer (ACE)
 
-**Target completion:** 31 July 2027
+**Foundation Sprint 0 (replanned):** 7 October–30 November 2026  
+**Formal ACE core start:** 1 December 2026  
+**Target completion:** 31 October 2027
 
 This directory is the control centre for the Accelerated Computing Engineer programme.
+
+The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](./00-programme/ACE_LOCKED_BASELINE.md#schedule-lock) records the date reconciliation: the full core now runs December 2026–October 2027, with capstone integration and evidence closure in September–October 2027. The locked curriculum, hours, prerequisites and evidence gates remain unchanged. Earlier study and completed evidence retain their actual dates and credit.
 
 The objective is to develop demonstrable competence across:
 
@@ -48,7 +52,7 @@ Tracks:
 - target windows
 - evidence-gate status
 - overall programme progress
-- July 2027 completion target
+- October 2027 completion target
 
 ## Competency Matrix
 [ACE_COMPETENCY_MATRIX.md](./ACE_COMPETENCY_MATRIX.md)

@@ -2,10 +2,14 @@
 
 **Phase:** 1 of 12
 **Status:** ACTIVE
-**Start:** 18 August 2026
-**Target completion:** September 2026
+**Initial preparatory study (historical):** 18 August 2026
+**Formal ACE core start:** 1 December 2026  
+**Remaining sprint work window:** December 2026
+**Target completion:** 31 December 2026
 **Planned effort:** ~40 focused hours
 **Evidence Gate:** Gate 1 — PASSED
+
+The 23 September 2026 schedule revision defers the formal core due to unforeseen circumstances. Foundation Sprint 0 is replanned for 7 October–30 November 2026; remaining architecture learning and exit requirements are scheduled for December 2026. ACTIVE continues to identify the unfinished sprint. The actual 18 August study start, Gate 1 pass on 16 September and evidence commit remain credited. The full ~40-hour allocation and all exit criteria are retained. The programme completion target is 31 October 2027; see the [locked schedule](../00-programme/ACE_LOCKED_BASELINE.md#schedule-lock).
 
 ---
 

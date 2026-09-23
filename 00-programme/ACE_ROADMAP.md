@@ -1,10 +1,20 @@
 ﻿# Accelerated Computing Engineer Roadmap
 
 **Programme:** Accelerated Computing Engineer (ACE)
-**Target completion:** 30 September 2027
+**Foundation Sprint 0 (replanned):** 7 October–30 November 2026  
+**Formal ACE core start:** 1 December 2026  
+**Target completion:** 31 October 2027
 **Primary objective:** Develop demonstrable competence across accelerated computing, GPU performance engineering, HPC, heterogeneous accelerators, compiler systems, distributed compute, and AI infrastructure efficiency.
 
 ---
+
+## Schedule Basis
+
+The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](ACE_LOCKED_BASELINE.md#schedule-lock) governs the dates. The formal core runs from 1 December 2026 through 31 October 2027, with integrated capstone work and evidence closure in September–October 2027. Course hours, order, prerequisites and evidence requirements remain unchanged. Target windows permit interleaving only after prerequisites pass; unfinished work moves later rather than being compressed.
+
+Earlier architecture study and the recorded Gate 1 pass remain credited. ACTIVE identifies the unfinished technical focus, not an assertion that the formal core has begun. Remaining architecture work is scheduled for December 2026; Foundation Sprint 0 takes priority before core entry.
+
+The phase windows below summarize the Atlas course windows. Phase 8 includes preparatory review in April with the TPU/JAX courses in May; Phase 10 spans the full June–July NCCL window; Phase 11 includes FSDL through September. Phase 12 covers August preparation and September–October integration and closure.
 
 ## Programme Principle
 
@@ -25,7 +35,7 @@ The operating loop is:
 
 # Phase 1 — Computer Architecture
 
-**Target:** August–September 2026
+**Target:** December 2026
 **Expected effort:** ~40 hours
 
 ### Core course
@@ -50,7 +60,7 @@ Demonstrate measurable CPU/cache/memory effects through benchmarks and explain t
 
 # Phase 2 — Parallel Computing
 
-**Target:** September–October 2026
+**Target:** December 2026–January 2027
 **Expected effort:** ~45 hours
 
 ### Core course
@@ -76,7 +86,7 @@ Implement and benchmark a parallel workload and explain scaling efficiency and o
 
 # Phase 3 — High-Performance Computing
 
-**Target:** October 2026
+**Target:** January 2027
 **Expected effort:** ~40 hours
 
 ### Core material
@@ -103,7 +113,7 @@ Implement both OpenMP and MPI workloads and demonstrate measurable parallel scal
 
 # Phase 4 — CUDA Core
 
-**Target:** October–November 2026
+**Target:** January–February 2027
 **Expected effort:** ~53 hours
 
 ### Core material
@@ -134,7 +144,7 @@ Write correct nontrivial CUDA kernels without depending entirely on framework ab
 
 # Phase 5 — GPU Performance Engineering
 
-**Target:** November–December 2026
+**Target:** February–March 2027
 **Expected effort:** ~67 hours
 
 ### Core tools
@@ -168,7 +178,7 @@ Take an inefficient GPU workload through:
 
 # Phase 6 — Advanced HPC
 
-**Target:** December 2026–January 2027
+**Target:** March–April 2027
 **Expected effort:** ~40 hours
 
 ### Core course
@@ -192,7 +202,7 @@ Explain and demonstrate the relationship between algorithm design, computation, 
 
 # Phase 7 — AMD ROCm / HIP
 
-**Target:** January 2027
+**Target:** April 2027
 **Expected effort:** ~50 hours
 
 ### Core material
@@ -225,7 +235,7 @@ Run equivalent workloads on NVIDIA and AMD environments and explain meaningful p
 
 # Phase 8 — TPU / JAX / Compiler-First Accelerators
 
-**Target:** January–February 2027
+**Target:** April–May 2027
 **Expected effort:** ~40 hours
 
 ### Core material
@@ -253,7 +263,7 @@ Execute a real workload on TPU, use JAX compilation/sharding, and explain how th
 
 # Phase 9 — Compiler Systems
 
-**Target:** February–March 2027
+**Target:** May–June 2027
 **Expected effort:** ~70 hours
 
 ### Core material
@@ -283,7 +293,7 @@ Implement and benchmark a Triton kernel against a CUDA/PyTorch equivalent and ex
 
 # Phase 10 — Distributed Accelerators
 
-**Target:** March 2027
+**Target:** June–July 2027
 **Expected effort:** ~25 hours
 
 ### Core material
@@ -308,7 +318,7 @@ Run or simulate a distributed GPU experiment and produce a scaling analysis.
 
 # Phase 11 — AI Workload Internals
 
-**Target:** April–May 2027
+**Target:** July–September 2027
 **Expected effort:** ~110 hours
 
 ### Core material
@@ -339,7 +349,7 @@ Profile an actual transformer workload and connect model architecture to acceler
 
 # Phase 12 — Cross-Accelerator Capstone
 
-**Target:** May–July 2027
+**Target:** August–October 2027
 **Expected effort:** 40+ hours
 
 ### Objective
@@ -392,7 +402,7 @@ Produce:
 
 # Target Professional Identity
 
-By 30 September 2027 the goal is to be able to defend the title:
+By 31 October 2027 the goal is to be able to defend the title:
 
 ## Accelerated Compute Platform & AI Infrastructure Efficiency Engineer
 

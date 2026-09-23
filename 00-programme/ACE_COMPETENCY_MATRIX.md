@@ -1,7 +1,7 @@
 ﻿# Accelerated Computing Engineer — Competency Matrix
 
 **Programme:** Accelerated Computing Engineer (ACE)  
-**Target completion:** 31 July 2027  
+**Target completion:** 31 October 2027  
 **Purpose:** Define objective competence levels across the ACE programme.
 
 ---
@@ -575,7 +575,7 @@ and determine where performance is lost and what should be changed.
 
 # Final Engineering Test
 
-By July 2027 I should be able to receive an unfamiliar accelerated-computing workload and independently:
+By October 2027 I should be able to receive an unfamiliar accelerated-computing workload and independently:
 
 - [ ] Establish a reproducible baseline
 - [ ] Characterize the algorithm
@@ -597,7 +597,7 @@ If these can be demonstrated with reproducible evidence, the ACE objective has b
 
 ---
 
-# Target Competency Profile — July 2027
+# Target Competency Profile — October 2027
 
 | Domain | Target Level |
 |---|---:|

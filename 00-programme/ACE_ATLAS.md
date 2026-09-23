@@ -1,7 +1,9 @@
 # ACE Master Atlas
 
 **Programme:** Accelerated Compute Platform & AI Infrastructure Efficiency Engineer  
-**Target completion:** 31 July 2027  
+**Foundation Sprint 0 (replanned):** 7 October–30 November 2026  
+**Formal ACE core start:** 1 December 2026  
+**Target completion:** 31 October 2027  
 **Study intensity:** ~15 focused hours/week core + interleaved platform practice  
 **Programme status:** ACTIVE  
 **Current phase:** Phase 1 — Computer Architecture  
@@ -89,41 +91,41 @@ The professional moat is the ability to connect numerical correctness, low-level
 
 | # | Phase | Course / Resource | Provider | Priority | Score | Hours | Target Window | Core Focus | Evidence / Outcome | Status | Link |
 |---:|---|---|---|---|---:|---:|---|---|---|---|---|
-| **1** | Architecture | **Computer Architecture** | Princeton / Coursera | CORE | **9.5** | **40** | Sep 2026 | Pipelines, caches, memory hierarchy, branch prediction, OoO, multicore | CPU/cache/memory benchmark | **ACTIVE** | https://www.coursera.org/learn/comparch |
-| **2** | Numerical Computing | **CS205A — Mathematical Methods for Robotics, Vision and Graphics (selected)** | Stanford | SELECTIVE CORE SUPPORT | **9.5** | **20–25** | Sep–Oct 2026 | Floating point, conditioning, LU/QR/SVD, eigenproblems, optimization, iterative solvers, preconditioning | Numerical stability + solver benchmark suite | **SELECTIVE** | https://www.youtube.com/playlist?list=PLQ3UicqQtfNvQ_VzflHYKhAqZiTxOkSwi |
-| **3** | Parallel Computing | **CS149 — Parallel Computing** | Stanford | CORE | **10** | **45** | Sep–Oct 2026 | SIMD/SIMT, decomposition, synchronization, locality, GPU architecture | Parallel scaling benchmark | QUEUED | https://cs149.stanford.edu/ |
-| **4** | HPC | **High-Performance & Parallel Computing** | CU Boulder | CORE | **9.5** | **20** | Oct 2026 | HPC architecture, performance models, parallel workloads | HPC workload analysis | QUEUED | https://www.coursera.org/specializations/high-performance-parallel-computing |
-| **5** | HPC | **Efficient Programming** | CU Boulder | CORE | **9.5** | **10** | Oct 2026 | Bottlenecks, optimization, profiling | CPU optimization experiment | QUEUED | https://www.coursera.org/learn/hpc-efficient-programming |
-| **6** | HPC | **Parallel Computing with MPI** | CU Boulder | CORE | **9.5** | **10** | Oct 2026 | MPI, collectives, nonblocking communication, decomposition | MPI scaling experiment | QUEUED | https://www.coursera.org/learn/advanced-parallel-computing-mpi |
-| **7** | CUDA | **CUDA Introduction / Primer** | NVIDIA | CORE | **9** | **3** | Oct 2026 | Kernels, threads, blocks, grids, host/device model | First CUDA kernel | QUEUED | https://developer.nvidia.com/cuda |
-| **8** | CUDA | **Modern CUDA C++** | NVIDIA DLI | CORE | **10** | **15** | Oct–Nov 2026 | Native CUDA programming | CUDA implementation | QUEUED | https://learn.nvidia.com/ |
-| **9** | CUDA | **CUDA Programming Guide + ACE Labs** | NVIDIA | CORE | **10** | **35** | Nov 2026 | Memory hierarchy, synchronization, occupancy, reductions, matmul | Nontrivial CUDA kernels | QUEUED | https://docs.nvidia.com/cuda/cuda-programming-guide/ |
-| **10** | Profiling | **Nsight Systems** | NVIDIA | CORE | **10** | **10** | Nov 2026 | CPU/GPU timelines, launch overhead, idle time, transfers | Timeline diagnosis | QUEUED | https://docs.nvidia.com/nsight-systems/ |
-| **11** | Profiling | **Nsight Compute** | NVIDIA | CORE | **10** | **15** | Nov 2026 | Kernel metrics, stalls, occupancy, bandwidth | Kernel diagnosis | QUEUED | https://docs.nvidia.com/nsight-compute/ |
-| **12** | GPU Performance | **CUDA Memory Optimization Lab** | NVIDIA + ACE | CORE | **10** | **15** | Nov–Dec 2026 | Coalescing, shared memory, tiling, registers, caches | Before/after optimization | QUEUED | https://docs.nvidia.com/cuda/ |
-| **13** | GPU Performance | **Streams / Async / CUDA Graphs** | NVIDIA | CORE | **9.5** | **15** | Dec 2026 | Latency hiding, overlap, asynchronous execution | Concurrency benchmark | QUEUED | https://docs.nvidia.com/cuda/cuda-programming-guide/ |
-| **14** | GPU + ML | **PyTorch Custom CUDA Extension** | PyTorch | CORE | **9.5** | **12** | Dec 2026 | PyTorch integration with native GPU kernels | Custom accelerated operation | QUEUED | https://docs.pytorch.org/tutorials/advanced/cpp_extension.html |
-| **15** | Advanced HPC | **CS267 — Applications of Parallel Computers** | UC Berkeley | CORE | **10** | **40** | Dec 2026–Jan 2027 | Parallel algorithms, distributed memory, communication, scalability | HPC scalability study | QUEUED | https://sites.google.com/lbl.gov/cs267-spr2025 |
-| **16** | AMD | **AMD AI Academy** | AMD | CORE | **9.5** | **10** | Jan 2027 | ROCm ecosystem and AMD acceleration stack | ROCm architecture map | QUEUED | https://developer.amd.com/ |
-| **17** | AMD | **HIP / ROCm Programming** | AMD | CORE | **10** | **20** | Jan 2027 | Portable accelerator programming | HIP kernels | QUEUED | https://rocm.docs.amd.com/projects/HIP/ |
-| **18** | AMD | **CUDA → HIP Port + ROCm Profiling** | AMD + ACE | CORE | **10** | **20** | Jan 2027 | Cross-vendor portability and profiling | NVIDIA vs AMD analysis | QUEUED | https://rocm.docs.amd.com/ |
-| **19** | TPU | **TPU Architecture + JAX Fundamentals** | Google | CORE | **9.5** | **20** | Feb 2027 | TPU architecture, JAX, JIT, compiler-first execution | JAX accelerator workload | QUEUED | https://cloud.google.com/tpu |
-| **20** | TPU | **JAX on TPU / Scaling** | Google | CORE | **9.5** | **20** | Feb 2027 | Meshes, sharding, distributed TPU execution | TPU scaling experiment | QUEUED | https://jax.readthedocs.io/ |
-| **21** | Compilers | **LLVM Compiler Fundamentals** | LLVM | CORE | **9.5** | **25** | Feb–Mar 2027 | AST, IR, optimization, lowering, JIT | LLVM IR artifact | QUEUED | https://llvm.org/docs/tutorial/ |
-| **22** | Compilers | **Triton Kernel Programming** | Triton | CORE | **10** | **25** | Mar 2027 | Compiler-mediated GPU kernels, fusion, matmul, softmax | Triton vs CUDA benchmark | QUEUED | https://triton-lang.org/main/getting-started/tutorials/ |
-| **23** | Compilers | **PyTorch Compiler / torch.compile** | PyTorch | CORE | **9.5** | **20** | Mar 2027 | TorchDynamo, Inductor, graph capture, generated kernels | Compiler-generated workload analysis | QUEUED | https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html |
-| **24** | Distributed | **NCCL + Distributed GPU Systems** | NVIDIA | CORE | **10** | **25** | Mar–Apr 2027 | Collectives, topology, AllReduce, NVLink, PCIe, multi-GPU | Communication/scaling analysis | QUEUED | https://docs.nvidia.com/deeplearning/nccl/ |
-| **25** | ML Systems | **CS336 — Language Modeling from Scratch** | Stanford | CORE | **10** | **60** | Apr–May 2027 | Transformers, training, scaling, evaluation, systems | Transformer profiling study | QUEUED | https://cs336.stanford.edu/ |
-| **26** | ML Systems | **CME 295 — Transformers & LLMs** | Stanford | SELECTIVE | **9** | **15** | May 2027 | Training, MoE, quantization, hardware optimization, reasoning | LLM systems synthesis | SELECTIVE | https://cme295.stanford.edu/ |
-| **27** | ML Systems | **Full Stack Deep Learning** | FSDL | CORE | **10** | **35** | May–Jun 2027 | Production ML, deployment, observability, infrastructure | Production ML artifact | QUEUED | https://fullstackdeeplearning.com/ |
-| **28** | Self-Improving Systems | **CS329A — Self-Improving AI Agents** | Stanford | SELECTIVE | **9.5** | **15–20** | Jun 2027 | RL, test-time compute, verifiers, memory, long-horizon evaluation, AI optimization | AI-assisted performance-engineering synthesis | SELECTIVE | https://cs329a.stanford.edu/ |
-| **29** | Agent Evaluation | **Writing Evals** | Anthropic | SELECTIVE | **9** | **2–3** | Jun 2027 | Evaluation design, verification, measurable agent performance | Evaluation specification | SELECTIVE | https://www.anthropic.com/learn |
+| **1** | Architecture | **Computer Architecture** | Princeton / Coursera | CORE | **9.5** | **40** | Dec 2026 | Pipelines, caches, memory hierarchy, branch prediction, OoO, multicore | CPU/cache/memory benchmark | **ACTIVE** | https://www.coursera.org/learn/comparch |
+| **2** | Numerical Computing | **CS205A — Mathematical Methods for Robotics, Vision and Graphics (selected)** | Stanford | SELECTIVE CORE SUPPORT | **9.5** | **20–25** | Dec 2026–Jan 2027 | Floating point, conditioning, LU/QR/SVD, eigenproblems, optimization, iterative solvers, preconditioning | Numerical stability + solver benchmark suite | **SELECTIVE** | https://www.youtube.com/playlist?list=PLQ3UicqQtfNvQ_VzflHYKhAqZiTxOkSwi |
+| **3** | Parallel Computing | **CS149 — Parallel Computing** | Stanford | CORE | **10** | **45** | Dec 2026–Jan 2027 | SIMD/SIMT, decomposition, synchronization, locality, GPU architecture | Parallel scaling benchmark | QUEUED | https://cs149.stanford.edu/ |
+| **4** | HPC | **High-Performance & Parallel Computing** | CU Boulder | CORE | **9.5** | **20** | Jan 2027 | HPC architecture, performance models, parallel workloads | HPC workload analysis | QUEUED | https://www.coursera.org/specializations/high-performance-parallel-computing |
+| **5** | HPC | **Efficient Programming** | CU Boulder | CORE | **9.5** | **10** | Jan 2027 | Bottlenecks, optimization, profiling | CPU optimization experiment | QUEUED | https://www.coursera.org/learn/hpc-efficient-programming |
+| **6** | HPC | **Parallel Computing with MPI** | CU Boulder | CORE | **9.5** | **10** | Jan 2027 | MPI, collectives, nonblocking communication, decomposition | MPI scaling experiment | QUEUED | https://www.coursera.org/learn/advanced-parallel-computing-mpi |
+| **7** | CUDA | **CUDA Introduction / Primer** | NVIDIA | CORE | **9** | **3** | Jan 2027 | Kernels, threads, blocks, grids, host/device model | First CUDA kernel | QUEUED | https://developer.nvidia.com/cuda |
+| **8** | CUDA | **Modern CUDA C++** | NVIDIA DLI | CORE | **10** | **15** | Jan–Feb 2027 | Native CUDA programming | CUDA implementation | QUEUED | https://learn.nvidia.com/ |
+| **9** | CUDA | **CUDA Programming Guide + ACE Labs** | NVIDIA | CORE | **10** | **35** | Feb 2027 | Memory hierarchy, synchronization, occupancy, reductions, matmul | Nontrivial CUDA kernels | QUEUED | https://docs.nvidia.com/cuda/cuda-programming-guide/ |
+| **10** | Profiling | **Nsight Systems** | NVIDIA | CORE | **10** | **10** | Feb 2027 | CPU/GPU timelines, launch overhead, idle time, transfers | Timeline diagnosis | QUEUED | https://docs.nvidia.com/nsight-systems/ |
+| **11** | Profiling | **Nsight Compute** | NVIDIA | CORE | **10** | **15** | Feb 2027 | Kernel metrics, stalls, occupancy, bandwidth | Kernel diagnosis | QUEUED | https://docs.nvidia.com/nsight-compute/ |
+| **12** | GPU Performance | **CUDA Memory Optimization Lab** | NVIDIA + ACE | CORE | **10** | **15** | Feb–Mar 2027 | Coalescing, shared memory, tiling, registers, caches | Before/after optimization | QUEUED | https://docs.nvidia.com/cuda/ |
+| **13** | GPU Performance | **Streams / Async / CUDA Graphs** | NVIDIA | CORE | **9.5** | **15** | Mar 2027 | Latency hiding, overlap, asynchronous execution | Concurrency benchmark | QUEUED | https://docs.nvidia.com/cuda/cuda-programming-guide/ |
+| **14** | GPU + ML | **PyTorch Custom CUDA Extension** | PyTorch | CORE | **9.5** | **12** | Mar 2027 | PyTorch integration with native GPU kernels | Custom accelerated operation | QUEUED | https://docs.pytorch.org/tutorials/advanced/cpp_extension.html |
+| **15** | Advanced HPC | **CS267 — Applications of Parallel Computers** | UC Berkeley | CORE | **10** | **40** | Mar–Apr 2027 | Parallel algorithms, distributed memory, communication, scalability | HPC scalability study | QUEUED | https://sites.google.com/lbl.gov/cs267-spr2025 |
+| **16** | AMD | **AMD AI Academy** | AMD | CORE | **9.5** | **10** | Apr 2027 | ROCm ecosystem and AMD acceleration stack | ROCm architecture map | QUEUED | https://developer.amd.com/ |
+| **17** | AMD | **HIP / ROCm Programming** | AMD | CORE | **10** | **20** | Apr 2027 | Portable accelerator programming | HIP kernels | QUEUED | https://rocm.docs.amd.com/projects/HIP/ |
+| **18** | AMD | **CUDA → HIP Port + ROCm Profiling** | AMD + ACE | CORE | **10** | **20** | Apr 2027 | Cross-vendor portability and profiling | NVIDIA vs AMD analysis | QUEUED | https://rocm.docs.amd.com/ |
+| **19** | TPU | **TPU Architecture + JAX Fundamentals** | Google | CORE | **9.5** | **20** | May 2027 | TPU architecture, JAX, JIT, compiler-first execution | JAX accelerator workload | QUEUED | https://cloud.google.com/tpu |
+| **20** | TPU | **JAX on TPU / Scaling** | Google | CORE | **9.5** | **20** | May 2027 | Meshes, sharding, distributed TPU execution | TPU scaling experiment | QUEUED | https://jax.readthedocs.io/ |
+| **21** | Compilers | **LLVM Compiler Fundamentals** | LLVM | CORE | **9.5** | **25** | May–Jun 2027 | AST, IR, optimization, lowering, JIT | LLVM IR artifact | QUEUED | https://llvm.org/docs/tutorial/ |
+| **22** | Compilers | **Triton Kernel Programming** | Triton | CORE | **10** | **25** | Jun 2027 | Compiler-mediated GPU kernels, fusion, matmul, softmax | Triton vs CUDA benchmark | QUEUED | https://triton-lang.org/main/getting-started/tutorials/ |
+| **23** | Compilers | **PyTorch Compiler / torch.compile** | PyTorch | CORE | **9.5** | **20** | Jun 2027 | TorchDynamo, Inductor, graph capture, generated kernels | Compiler-generated workload analysis | QUEUED | https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html |
+| **24** | Distributed | **NCCL + Distributed GPU Systems** | NVIDIA | CORE | **10** | **25** | Jun–Jul 2027 | Collectives, topology, AllReduce, NVLink, PCIe, multi-GPU | Communication/scaling analysis | QUEUED | https://docs.nvidia.com/deeplearning/nccl/ |
+| **25** | ML Systems | **CS336 — Language Modeling from Scratch** | Stanford | CORE | **10** | **60** | Jul–Aug 2027 | Transformers, training, scaling, evaluation, systems | Transformer profiling study | QUEUED | https://cs336.stanford.edu/ |
+| **26** | ML Systems | **CME 295 — Transformers & LLMs** | Stanford | SELECTIVE | **9** | **15** | Aug 2027 | Training, MoE, quantization, hardware optimization, reasoning | LLM systems synthesis | SELECTIVE | https://cme295.stanford.edu/ |
+| **27** | ML Systems | **Full Stack Deep Learning** | FSDL | CORE | **10** | **35** | Aug–Sep 2027 | Production ML, deployment, observability, infrastructure | Production ML artifact | QUEUED | https://fullstackdeeplearning.com/ |
+| **28** | Self-Improving Systems | **CS329A — Self-Improving AI Agents** | Stanford | SELECTIVE | **9.5** | **15–20** | Sep 2027 | RL, test-time compute, verifiers, memory, long-horizon evaluation, AI optimization | AI-assisted performance-engineering synthesis | SELECTIVE | https://cs329a.stanford.edu/ |
+| **29** | Agent Evaluation | **Writing Evals** | Anthropic | SELECTIVE | **9** | **2–3** | Sep 2027 | Evaluation design, verification, measurable agent performance | Evaluation specification | SELECTIVE | https://www.anthropic.com/learn |
 | **30** | Agent Systems | **Building with Claude API** | Anthropic | SELECTIVE | **9** | **5–8** | As needed | Tool architecture and structured execution | Applied reference | SELECTIVE | https://docs.anthropic.com/ |
 | **31** | Agent Systems | **MCP + MCP Advanced** | Anthropic | SELECTIVE | **9.5** | **6–8** | As needed | Tool/data connectivity and context architecture | MCP implementation | SELECTIVE | https://docs.anthropic.com/ |
 | **32** | Agent Systems | **Effective Agents / Context Engineering** | Anthropic | SELECTIVE | **9** | **6–10** | As needed | Agent loops, delegation, context, tools | Engineering reference | SELECTIVE | https://www.anthropic.com/engineering/building-effective-agents |
 | **33** | Agent Reference | **Microsoft MCP — selected labs** | Microsoft | OPTIONAL | **8** | **4–6** | As needed | Cross-language MCP | Implementation reference | OPTIONAL | https://github.com/microsoft/mcp-for-beginners |
 | **34** | Agent Reference | **Microsoft AI Agents — selected lessons** | Microsoft | OPTIONAL | **7.5** | **5–8** | As needed | Enterprise agent patterns | Microsoft ecosystem familiarity | OPTIONAL | https://github.com/microsoft/ai-agents-for-beginners |
-| **35** | Capstone | **Heterogeneous AI Compute Platform Capstone** | ACE | CORE | **10** | **40+** | Jun–Jul 2027 | Accelerators + platform + observability + economics | Final evidence portfolio | QUEUED | — |
+| **35** | Capstone | **Heterogeneous AI Compute Platform Capstone** | ACE | CORE | **10** | **40+** | Sep–Oct 2027 | Accelerators + platform + observability + economics | Final evidence portfolio | QUEUED | — |
 
 ---
 
@@ -201,14 +203,14 @@ Compute Platform Engineering is interleaved with the core programme rather than 
 
 | ID | Module | Priority | Hours | Target Window | Core Capability | Evidence | Status |
 |---|---|---:|---:|---|---|---|---|
-| **CP1** | **Linux Systems Engineering** | **10/10** | **25–30** | Sep–Oct 2026 | Processes, cgroups, namespaces, systemd, filesystems, kernel, NUMA, logs | Diagnose deliberately broken GPU host | QUEUED |
-| **CP2** | **Networking for Accelerated Compute** | **10/10** | **25–30** | Sep–Nov 2026 | TCP/IP, routing, DNS, TLS, MTU, bandwidth, NIC/GPU topology, RDMA concepts | Network performance + fault diagnosis | QUEUED |
-| **CP3** | **Containers + NVIDIA GPU Runtime** | **10/10** | **15–20** | Nov–Dec 2026 | Docker, containerd, OCI, NVIDIA Container Toolkit, runtime compatibility | Reproducible GPU container environment | QUEUED |
-| **CP4** | **Kubernetes + GPU Scheduling** | **10/10** | **40–50** | Jan–Mar 2027 | Kubernetes, GPU Operator, device plugins, quotas, priorities, Kueue | Operational GPU-aware cluster | QUEUED |
-| **CP5** | **Observability + SRE for Compute** | **10/10** | **25–30** | Mar–Apr 2027 | Prometheus, Grafana, DCGM, SLI/SLO, alerts, incidents, runbooks | Dashboard + induced incident + recovery | QUEUED |
-| **CP6** | **Inference Serving Engineering** | **10/10** | **30–40** | Apr–Jun 2027 | vLLM, TensorRT/TensorRT-LLM, Triton, KV cache, batching, latency/throughput | Serving benchmark | QUEUED |
-| **CP7** | **Infrastructure Automation + Security** | **9/10** | **20–25** | Feb–Jun 2027 | Terraform/OpenTofu, Helm, GitOps, RBAC, secrets, image/security policy | Reproducible secured deployment | QUEUED |
-| **CP8** | **Compute Capacity Engineering + FinOps** | **10/10** | **20–25** | Apr–Jul 2027 | GPU-hours, utilization, placement, cloud/local/spot/reserved, showback | Placement + cost model | QUEUED |
+| **CP1** | **Linux Systems Engineering** | **10/10** | **25–30** | Dec 2026–Jan 2027 | Processes, cgroups, namespaces, systemd, filesystems, kernel, NUMA, logs | Diagnose deliberately broken GPU host | QUEUED |
+| **CP2** | **Networking for Accelerated Compute** | **10/10** | **25–30** | Dec 2026–Feb 2027 | TCP/IP, routing, DNS, TLS, MTU, bandwidth, NIC/GPU topology, RDMA concepts | Network performance + fault diagnosis | QUEUED |
+| **CP3** | **Containers + NVIDIA GPU Runtime** | **10/10** | **15–20** | Feb–Mar 2027 | Docker, containerd, OCI, NVIDIA Container Toolkit, runtime compatibility | Reproducible GPU container environment | QUEUED |
+| **CP4** | **Kubernetes + GPU Scheduling** | **10/10** | **40–50** | Apr–Jun 2027 | Kubernetes, GPU Operator, device plugins, quotas, priorities, Kueue | Operational GPU-aware cluster | QUEUED |
+| **CP5** | **Observability + SRE for Compute** | **10/10** | **25–30** | Jun–Jul 2027 | Prometheus, Grafana, DCGM, SLI/SLO, alerts, incidents, runbooks | Dashboard + induced incident + recovery | QUEUED |
+| **CP6** | **Inference Serving Engineering** | **10/10** | **30–40** | Jul–Sep 2027 | vLLM, TensorRT/TensorRT-LLM, Triton, KV cache, batching, latency/throughput | Serving benchmark | QUEUED |
+| **CP7** | **Infrastructure Automation + Security** | **9/10** | **20–25** | May–Sep 2027 | Terraform/OpenTofu, Helm, GitOps, RBAC, secrets, image/security policy | Reproducible secured deployment | QUEUED |
+| **CP8** | **Compute Capacity Engineering + FinOps** | **10/10** | **20–25** | Jul–Oct 2027 | GPU-hours, utilization, placement, cloud/local/spot/reserved, showback | Placement + cost model | QUEUED |
 
 ---
 
@@ -600,19 +602,26 @@ policy / sovereignty constraints
 
 # Programme Timeline
 
+The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](ACE_LOCKED_BASELINE.md#schedule-lock) governs the dates. The formal core runs from 1 December 2026 through 31 October 2027, with integrated capstone work and evidence closure in September–October 2027. Course hours, order, prerequisites and evidence requirements remain unchanged. Target windows permit interleaving only after prerequisites pass; unfinished work moves later rather than being compressed.
+
+Earlier architecture study and the recorded Gate 1 pass remain credited. ACTIVE identifies the unfinished technical focus, not an assertion that the formal core has begun. Remaining architecture work is scheduled for December 2026; Foundation Sprint 0 takes priority before core entry.
+
 | Period | Accelerated Computing Core | Numerical / Compute Platform Overlay |
 |---|---|---|
-| **Sep 2026** | Princeton Architecture / CS149 start | CS205A numerics + Linux fundamentals |
-| **Oct 2026** | CS149 + HPC/MPI | CS205A selected solvers + Linux + networking |
-| **Nov 2026** | CUDA Core | Networking + GPU containers |
-| **Dec 2026** | GPU Performance | Containers + DCGM fundamentals |
-| **Jan 2027** | CS267 + AMD | Kubernetes fundamentals |
-| **Feb 2027** | AMD + TPU/JAX + LLVM | Kubernetes + IaC/security |
-| **Mar 2027** | Triton + torch.compile + NCCL | GPU scheduling + Kueue + observability |
-| **Apr 2027** | NCCL + CS336 | vLLM + observability/SRE |
-| **May 2027** | CS336 + CME295 + FSDL | Serving optimization + FinOps |
-| **Jun 2027** | FSDL + CS329A | Platform reliability + inference benchmark |
-| **Jul 2027** | Integrated capstone | Policy-aware heterogeneous compute platform |
+| **7 Oct–30 Nov 2026** | Foundation Sprint 0 prerequisites | Programming, Linux/tooling, mathematics and numerical foundations |
+| **1 Dec 2026** | Formal core competence gate | Required foundation evidence before entry |
+| **Dec 2026** | Princeton Architecture / CS149 start | CS205A numerics + Linux fundamentals |
+| **Jan 2027** | CS149 + HPC/MPI | CS205A selected solvers + Linux + networking |
+| **Feb 2027** | CUDA Core | Networking + GPU containers |
+| **Mar 2027** | GPU Performance | Containers + DCGM fundamentals |
+| **Apr 2027** | CS267 + AMD | Kubernetes fundamentals |
+| **May 2027** | AMD + TPU/JAX + LLVM | Kubernetes + IaC/security |
+| **Jun 2027** | Triton + torch.compile + NCCL | GPU scheduling + Kueue + observability |
+| **Jul 2027** | NCCL + CS336 | vLLM + observability/SRE |
+| **Aug 2027** | CS336 + CME295 + FSDL; capstone preparation | Serving optimization + FinOps |
+| **Sep 2027** | FSDL + CS329A; capstone integration begins | Platform reliability + inference benchmark |
+| **Oct 2027** | Integrated capstone + final evidence closure | Policy-aware heterogeneous compute platform |
+| **31 Oct 2027** | Target completion | All 16 evidence gates and final engineering test passed |
 
 ---
 
@@ -645,7 +654,7 @@ CS205A does not create a seventeenth gate. Numerical correctness is a cross-cutt
 
 # Target Competency Levels
 
-| Domain | July 2027 Target |
+| Domain | October 2027 Target |
 |---|---:|
 | Numerical Computing / Stability | **Level 3** |
 | Computer Architecture | **Level 3** |
@@ -743,7 +752,7 @@ Any newly discovered course, certification, lecture series, vendor academy or so
 3. Does it create technical depth rather than prestige alone?
 4. Can it generate engineering evidence?
 5. Is the time cost justified?
-6. Does it strengthen the July 2027 professional identity?
+6. Does it strengthen the October 2027 professional identity?
 
 Possible decisions:
 
@@ -850,9 +859,9 @@ The platform component should include:
 
 ---
 
-# July 2027 Final Engineering Test
+# October 2027 Final Engineering Test
 
-By July 2027 I should be able to receive an unfamiliar accelerated-compute workload and independently:
+By October 2027 I should be able to receive an unfamiliar accelerated-compute workload and independently:
 
 1. Characterize the mathematical and numerical problem.
 2. Characterize the algorithm.
