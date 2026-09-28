@@ -153,3 +153,169 @@ A future **AI GPU Utilization and Governed Workload Assessment** becomes defensi
 ## Decision
 
 **KEEP IN BACKLOG. DO NOT INTERRUPT FOUNDATION SPRINT 0 OR CURRENT COMPUTER-ARCHITECTURE WORK.**
+
+---
+
+# ACE-RB-002 — Simulated Topology Publication, Placement and Trace Reconstruction
+
+**Status:** SPECIFIED — DEFERRED UNTIL FORMAL CORE ENTRY AND GATE 0
+**Priority:** HIGH research value; no current-sequence interruption
+**Source event:** NVIDIA Topograph v1.0.0 and the 22 September 2026 engineering publication
+**Decision date:** 28 September 2026
+**Target evidence:** E2 initially; E3 only after repeatable independent rerun
+**Current sequence impact:** NONE
+
+## Research question
+
+Can ACE create a deterministic, auditable evidence chain from a declared simulated cluster topology through scheduler-visible metadata and workload placement to an EDEP execution record without physical multi-node GPUs?
+
+## Claim boundary
+
+This is a scheduler, provenance and reproducibility precursor.
+
+It may provide evidence about:
+
+- topology-model normalization;
+- scheduler-consumable label publication;
+- hard placement-constraint compliance;
+- preferred-placement satisfaction rates;
+- topology refresh and stale-label removal;
+- EDEP trace-to-placement reconstruction.
+
+It cannot establish:
+
+- GPU communication performance;
+- physical network latency or bandwidth;
+- distributed useful-throughput improvement;
+- energy efficiency;
+- infrastructure cost reduction;
+- production GPU-cluster competence.
+
+## Gate 0 — Platform feasibility
+
+**Status:** NOT STARTED
+
+Record and verify:
+
+1. Supported Windows/WSL/Linux execution path
+2. Go
+3. `make`
+4. Docker container runtime
+5. Kind
+6. `kubectl`
+7. Helm 3.10+ or 4.x
+8. `yq`
+9. KWOK and `kwok-nodes`
+10. Topograph test-provider simulation path
+11. Exact operating-system, kernel and tool versions
+12. Available CPU, memory and storage headroom
+
+Unsupported prerequisites are recorded as feasibility evidence, not experimental failure.
+
+No installation begins before the formal ACE core start on 1 December 2026 and explicit experiment prioritization.
+
+## Version and provenance controls
+
+Use a tagged Topograph release rather than an unbounded `main` branch.
+
+Record:
+
+- release version and Git commit;
+- container-image digest;
+- Helm-chart version and digest where available;
+- topology-model checksum;
+- provider and engine configuration;
+- Kubernetes, Kind, KWOK, Helm and scheduler versions;
+- experiment repository commit.
+
+## Fixed experimental conditions
+
+### A — No topology metadata
+
+Negative control using the selected scheduler without Topograph-derived topology information.
+
+### B — Labels only
+
+Verify Topograph topology normalization, Kubernetes label publication and trace capture without claiming improved placement.
+
+### C — Preferred affinity
+
+Measure the proportion of placements satisfying the declared preference. Preferred affinity is a scoring input, not a deterministic or globally optimal gang-placement guarantee.
+
+### D — Required constraint
+
+Test a hard placement rule and require zero placements that violate the declared constraint.
+
+### E — Changed topology model
+
+Regenerate topology and verify that changed labels are published and stale Topograph-managed labels are removed.
+
+### F — Corrupted or incomplete metadata
+
+Inject missing, stale or inconsistent topology metadata and verify that the validation harness detects the condition and preserves an auditable failure record.
+
+## Workload
+
+Use four lightweight CPU-only mock workers representing concurrent EDEP execution. GPU computation is deliberately excluded from the simulation precursor.
+
+Every execution record must preserve:
+
+**EDEP identifier → workload/pod → node → topology domain → topology-model version**
+
+The discrete EDEP result, including UNKNOWN and abstention states where present, must remain identical across conditions.
+
+## Preregistered success criteria
+
+- 100% expected-label publication for the fixed topology fixture
+- Zero hard-constraint placement violations
+- 100% EDEP trace-to-placement reconstruction
+- Zero EDEP semantic divergence
+- Correct detection of the negative/corrupted metadata case
+- Correct removal or replacement of stale managed labels after regeneration
+
+Preferred-affinity satisfaction is reported as a rate and distribution. It is not required to produce identical node placement on every run.
+
+No physical-performance threshold is permitted in the simulation experiment.
+
+## Null condition
+
+Topograph-derived metadata produces no material improvement in topology provenance, refresh correctness, constraint validation or reproducibility compared with a manually labelled control.
+
+A null result is retained as valid evidence.
+
+## Security and authority boundary
+
+- Use the default cluster-internal service path for the local experiment.
+- Do not expose the Topograph API externally without a separate authentication and network-control design.
+- Record the actor and configuration responsible for topology regeneration.
+- Preserve the generation request identifier, status, timestamp and failure result.
+- Treat reported topology as observed metadata, not automatically as intended infrastructure state.
+
+## Evidence record
+
+The experiment must produce a machine-readable Topology-Aware Execution Evidence Record containing:
+
+- topology fixture and checksum;
+- toolchain manifest;
+- Topograph provider/engine configuration;
+- scheduler configuration;
+- workload and EDEP identifiers;
+- placement outcome;
+- topology-refresh outcome;
+- trace mapping;
+- semantic-equivalence result;
+- negative/control case;
+- limitations and claim boundary;
+- reproduction command.
+
+## Future physical comparator
+
+After the simulation methodology reaches E3, a separate experiment may test:
+
+**GPU → NIC → switch/fabric → placement → communication latency → useful throughput → tail latency → energy/cost → EDEP outcome**
+
+This requires controlled multi-node infrastructure through Axiz, MTN, Telkom, Solcon, a suitable cloud environment or another authorized residency host.
+
+## Decision
+
+**KEEP IN BACKLOG. SPECIFY NOW. DO NOT INSTALL OR EXECUTE BEFORE FORMAL CORE ENTRY, GATE 0 AND EXPLICIT PRIORITIZATION.**

@@ -548,3 +548,68 @@ For NSDM/EDEP workloads, also record:
 - auditability outcome
 
 Performance evidence is invalid when the toolchain, correctness result or trace identity is missing.
+
+---
+
+# NVIDIA Topograph Research Delta
+
+**Decision date:** 28 September 2026
+**Classification:** ADD TO RESEARCH BACKLOG / SPECIFY NOW / DEFER EXECUTION
+**Syllabus impact:** NO CHANGE
+**Atlas impact:** NO CHANGE
+**Commercial claim permitted:** NO
+
+## Decision
+
+NVIDIA Topograph creates a useful future ACE experimental boundary by normalizing discovered or simulated cluster topology into scheduler-consumable representations.
+
+The opportunity is not a local GPU-cluster benchmark. It is a simulation-first precursor that tests whether ACE can preserve an auditable chain from topology model through scheduler-visible metadata and placement to EDEP execution provenance.
+
+Topograph supplies topology information. Kubernetes, KAI Scheduler, Kueue or Slurm performs placement. The experiment must not attribute scheduler behaviour or physical performance to Topograph alone.
+
+## Experiment placement
+
+The canonical backlog specification is:
+
+**ACE-RB-002 — Simulated Topology Publication, Placement and Trace Reconstruction**
+
+Repository target:
+
+`experiments/topology/EXP-TOPO-001-topograph-edep-simulation/`
+
+Execution is deferred until:
+
+1. the formal ACE core has begun on 1 December 2026;
+2. the prerequisite platform, container, Kubernetes and scheduling competence exists;
+3. Gate 0 confirms the local Kind/KWOK/Topograph path;
+4. the experiment is explicitly prioritized without displacing the locked learning sequence.
+
+## Evidence boundary
+
+The simulation may establish:
+
+- topology normalization and label publication;
+- placement-constraint compliance;
+- refresh and stale-label behaviour;
+- EDEP trace-to-placement reconstruction;
+- reproducible failure handling.
+
+It cannot establish physical GPU/network performance, energy efficiency, infrastructure cost reduction or production-cluster competence.
+
+Initial evidence is capped at E2. E3 requires a documented controlled comparison and independent rerun from repository instructions.
+
+## Future residency extension
+
+Physical topology-performance and economics claims require an authorized multi-node environment and measurement of:
+
+**GPU → NIC → switch/fabric → placement → communication latency → useful throughput → tail latency → energy/cost → EDEP outcome**
+
+Potential execution environments include Axiz, MTN, Telkom, Solcon or a suitable cloud GPU platform.
+
+## Permanent topology provenance extension
+
+For distributed or concurrent workloads, extend the ACE evidence chain with:
+
+**topology model/snapshot → provider → engine → scheduler policy → workload placement → trace attribution → correctness → SLO → cost**
+
+No topology-related efficiency claim is admissible when the physical topology, placement result or trace association is missing.

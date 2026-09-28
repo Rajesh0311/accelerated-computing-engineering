@@ -59,11 +59,18 @@ Future serving and scheduling evidence should test:
 
 These are research-backlog additions.
 
+The 26 September 2026 NVIDIA Topograph intelligence adds one bounded future experiment:
+
+- `ACE-RB-002 / EXP-TOPO-001` — simulated topology publication, placement and EDEP trace reconstruction.
+
+The specification is recorded now, but installation and execution are deferred until the formal ACE core begins on 1 December 2026, Gate 0 passes and the work is explicitly prioritized. Simulation evidence is limited to topology metadata, scheduling constraints, refresh behaviour and provenance. It cannot support physical GPU/network-performance, cost or production-cluster claims.
+
 They do not authorize:
 
 - a vLLM installation now;
 - a Kueue installation now;
 - an immediate CUDA toolchain change;
+- a Topograph, Kind, KWOK, KAI Scheduler or Kueue installation now;
 - an Atlas expansion;
 - an interruption to Phase 1.
 
