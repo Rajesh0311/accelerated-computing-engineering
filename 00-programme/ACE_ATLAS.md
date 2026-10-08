@@ -629,7 +629,7 @@ Earlier architecture study and the recorded Gate 1 pass remain credited. ACTIVE 
 
 | Gate | Capability | Required Evidence | Status |
 |---:|---|---|---|
-| **1** | Computer Architecture | Cache/locality/memory benchmark | **ACTIVE** |
+| **1** | Computer Architecture | Cache/locality/memory benchmark | **PASSED** |
 | **2** | Parallel Computing | Parallel implementation + scaling | QUEUED |
 | **3** | HPC | OpenMP/MPI experiments | QUEUED |
 | **4** | CUDA | Correct nontrivial CUDA kernels | QUEUED |
@@ -781,7 +781,7 @@ Planned effort: **~40 hours**
 
 Current objective: **Computer Architecture → Level 3**
 
-Current Evidence Gate: **Gate 1 — demonstrate and explain CPU cache/locality/memory-performance behaviour.**
+Current Evidence Gate: **Gate 1 — PASSED, with committed memory-locality evidence and synthesis (f97cdc8). The Computer Architecture course/sprint remains ACTIVE until its remaining exit criteria pass.**
 
 Immediate learning principle:
 

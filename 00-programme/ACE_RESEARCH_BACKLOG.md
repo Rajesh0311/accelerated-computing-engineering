@@ -319,3 +319,63 @@ This requires controlled multi-node infrastructure through Axiz, MTN, Telkom, So
 ## Decision
 
 **KEEP IN BACKLOG. SPECIFY NOW. DO NOT INSTALL OR EXECUTE BEFORE FORMAL CORE ENTRY, GATE 0 AND EXPLICIT PRIORITIZATION.**
+
+---
+
+# Scientific Coverage Additions — 8 October 2026
+
+The [Scientific Programme](ACE_SCIENTIFIC_PROGRAMME.md) defines protocol families and scientific/publication standards. The families do not automatically enter the active sequence. Existing RB-001/RB-002 specifications and their deferrals remain unchanged.
+
+## ACE-RB-003 — Request and Lifecycle Conservation
+
+**Status:** SPECIFIED / QUEUED; execution requires foundation competence and explicit prioritization
+**Protocol mapping:** SCI-07
+**Target:** E3 controlled comparison; serving-engine reproduction later
+
+Question: can the harness reconcile each logical request and distinguish legitimate attempts from lost or duplicate work under concurrency, priority and admission bounds?
+
+Reference: sequential, ID-based ledger with explicit rejection/cancellation/failure and drain rules. Perturbations: silent drop, duplicate completion, foreign trace attribution, timeout, cancellation and retry. Success requires zero unexplained request loss after the registered drain/cutoff policy, detection of injected defects and a measured false-positive rate. In-flight work is explicit before drain. A count match alone does not establish unique-ID reconciliation.
+
+Platform-neutral first; vLLM is a later Gate-0-qualified comparator. Upstream scheduling defects remain external observations until reproduced. No current installation is authorized.
+
+## ACE-RB-004 — Resource and Physical-Release Conservation
+
+**Status:** SPECIFIED / QUEUED
+**Protocol mapping:** SCI-08
+**Target:** E3; real scheduler comparison later
+
+Question: does policy-normalized effective demand survive retry/requeue, and does accounting release agree with actual cessation?
+
+Reference: effective demand derived by the specified policy, with per-attempt allocations. Faults: dropped defaults/overhead or preprocessed resources, early reservation release, orphan allocation, duplicate release and delayed physical stop. Distinguish demand, reservation and allocation vectors; retries can legitimately allocate again. Require zero unexplained demand divergence and no orphan allocations after the declared reconciliation deadline; audit idempotent releases and detect early release.
+
+Kueue defect classes motivate fixtures, not automatic local reproduction claims. Use the same lifecycle/trace infrastructure as RB-003. No Kubernetes installation is authorized by this specification.
+
+## ACE-RB-005 — Authority and Ownership Conservation
+
+**Status:** SPECIFIED / QUEUED
+**Protocol mapping:** SCI-09
+**Target:** E3; controller comparator later
+
+Question: can every state-changing operation prove authorization for this actor, target, operation and time?
+
+Reference: valid owner and explicitly delegated operations. Faults: foreign mutation/deletion, stale owner, expiry, revocation, invalid transfer and duplicated identity. Require zero unauthorized mutation/deletion, unchanged governed state after denial, and complete actor/operation/policy audit. Include valid delegation controls; actor/controller name equality is not a sufficient authorization model.
+
+No production security or complete multi-tenant isolation claim follows from a local fixture.
+
+## ACE-RB-006 — Optimization Admissibility Matrix
+
+**Status:** SPECIFIED / QUEUED
+**Protocol mapping:** SCI-02/04/06/12
+**Target:** E3
+
+Question: which candidate transformations preserve the workload contract and improve its registered objective?
+
+Reference: deterministic numerical/governed workload, one transformation at a time. Candidates include precision, compilation, batching, CUDA graphs and cache representation only where prerequisites and Gate 0 pass. Require exact registered discrete-state agreement, declared numerical tolerances, C1–C4 where applicable, actual backend provenance, holdout/threshold-edge fixtures and uncertainty-aware comparison.
+
+An inherently stochastic output needs workload-specific equivalence criteria rather than assumed universal token identity. A required UNKNOWN result blocks acceptance. No improvement is a valid null; unsupported configurations are retained as scope evidence.
+
+Reuse the semantic-equivalence infrastructure instead of creating a duplicate course or serving engine. Hardware-specific release defects are external observed records until independently reproduced.
+
+## Prioritization rule
+
+Foundation first; one active substantial experiment; no execution because a publishing slot needs a result. Catalogue trends as READ/REUSE/TEST/WATCH/REJECT and map them to existing families. The dated calendar is a reporting plan, not permission to bypass Gate 0, prerequisite competence or existing RB-001/RB-002 deferrals.

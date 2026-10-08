@@ -142,3 +142,13 @@ Then return to the next unfinished Princeton course unit.
 Do not mark the Computer Architecture sprint complete until the remaining learning, notes, sprint synthesis, diagnostic assessment, competency reassessment and Git evidence requirements pass.
 
 **LEARN → BUILD → MEASURE → EXPLAIN → IMPROVE → COMMIT → PROVE**
+
+---
+
+# Programme Decision — 8 October 2026
+
+Lock the [scientific scope](ACE_SCIENTIFIC_PROGRAMME.md) and [weekly evidence calendar](ACE_WEEKLY_EVIDENCE_CALENDAR.md). This is an execution/editorial-method update, not a newly completed learning session or experiment.
+
+Foundation retains priority through 30 November. Every reporting week packages existing or current work as a website evidence entry, NeuroAlchemist release candidate and meaningful visual. Status may be reviewed, specified, implemented, measured, null, failed or unsupported; it is never upgraded to meet a publishing date.
+
+Immediate release: publish the programme scope, curate the already committed Gate 1 evidence with its original dates, and prepare a short editorial field note. No new tool installation or measured result is claimed.

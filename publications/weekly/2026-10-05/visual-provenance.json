@@ -1,0 +1,16 @@
+{
+  "source_csv": "01-computer-architecture/evidence-gate-01-memory-locality/results/full-20260911-165240.csv",
+  "source_sha256": "e2f7fd2528cdeb6bf6a4e5b3319db7d557313602c6ee2adbfe0b13ce252c8f50",
+  "original_windows_crlf_sha256": "2d2d28ea5bf03970718c65c0e102954b15d2212e18e2dd3a3ad2d08ab0052861",
+  "repository_lf_sha256": "e2f7fd2528cdeb6bf6a4e5b3319db7d557313602c6ee2adbfe0b13ce252c8f50",
+  "line_ending_note": "Git normalizes CSV line endings; both serializations verified. Source file unchanged.",
+  "experiment_git_head": "7421ee7f1c9e02acf09577d52e20f588936e9b45",
+  "experiment_timestamp_utc": "20260911T145240Z",
+  "observations": 468,
+  "observations_per_condition_size": 9,
+  "summary": "median and inclusive quartiles; ratio of medians",
+  "iqr_is_confidence_interval": false,
+  "new_experiment": false,
+  "plotting_library": "matplotlib 3.10.8",
+  "claim_boundary": "This machine and implementation; no exact cache/DRAM/general hardware inference"
+}

@@ -153,3 +153,11 @@ Accelerated Computing & AI Infrastructure Efficiency Engineer
 
 The programme is complete when this title is defensible through reproducible engineering evidence rather than course completion alone.
 
+## Scientific programme and public evidence
+
+- [Scientific scope and experiment method](00-programme/ACE_SCIENTIFIC_PROGRAMME.md)
+- [Weekly evidence calendar through October 2027](00-programme/ACE_WEEKLY_EVIDENCE_CALENDAR.md)
+- [Reusable release template](00-programme/templates/WEEKLY_EVIDENCE_RELEASE.md)
+
+GitHub holds technical proof, the NSDM website holds the dossier, and The NeuroAlchemist provides authored interpretation. Weekly publication preserves null findings, unsupported configurations and claim boundaries; it does not expand the locked curriculum.
+

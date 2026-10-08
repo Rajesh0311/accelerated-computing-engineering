@@ -613,3 +613,32 @@ For distributed or concurrent workloads, extend the ACE evidence chain with:
 **topology model/snapshot → provider → engine → scheduler policy → workload placement → trace attribution → correctness → SLO → cost**
 
 No topology-related efficiency claim is admissible when the physical topology, placement result or trace association is missing.
+
+---
+
+# Scientific Programme and Weekly Public Evidence
+
+**Decision date:** 8 October 2026
+**Classification:** LOCK EXECUTION/PUBLICATION METHOD
+**Course sequence / gate count / schedule impact:** NO CHANGE
+
+The comprehensive focus and protocol authority is [ACE Scientific Programme](ACE_SCIENTIFIC_PROGRAMME.md). The dated output plan is [ACE Weekly Evidence Calendar](ACE_WEEKLY_EVIDENCE_CALENDAR.md), with [a reusable release template](templates/WEEKLY_EVIDENCE_RELEASE.md).
+
+The scientific programme maps numerical, algorithmic, accelerator, compiler, host, network, scheduling, reliability, authority and economics questions to the existing 12 phases, CP1–CP8 and 16 evidence gates. It defines 14 reusable protocol families, C1–C4 admission checks, Gate 0, negative controls, uncertainty, source adjudication, reproduction and a bounded capstone.
+
+Each reporting week produces:
+1. a website technical-evidence entry;
+2. a NeuroAlchemist field note, experiment dispatch or occasional flagship essay;
+3. a purposeful graph, exact diagram or labelled conceptual illustration;
+4. one source-adjudicated material trend or an explicit no-change finding;
+5. a reusable technical artefact with a repository/source link.
+
+Publication does not require a new experiment every week. Multi-week experiments, null results, failed hypotheses, unsupported configurations, corrections and preregistrations remain publishable with honest status. No image substitutes for measured data.
+
+Canonical proof stays in GitHub; the NSDM site is the technical dossier; Substack supplies authored interpretation. Preserve all original papers, research statuses, null findings and the site's established visual identity. Human review precedes publication.
+
+The ~15-hour core planning basis remains unchanged. Reuse required lab interpretation and visualisation; record optional editorial effort separately. If a publication displaces a prerequisite, shorten it rather than compressing the curriculum.
+
+Foundation remains 7 October–30 November 2026; formal core begins 1 December; completion target remains 31 October 2027. Gate 1 remains PASSED while the Computer Architecture sprint remains ACTIVE. The weekly calendar does not authorize early Topograph, Kubernetes, serving or MPS installation.
+
+**Operating loop:** QUESTION → PREREGISTER → BUILD → MEASURE → ADJUDICATE → REPRODUCE → EXPLAIN → VISUALISE → COMMIT → PUBLISH → CORRECT.
