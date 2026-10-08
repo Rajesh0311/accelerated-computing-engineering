@@ -1,0 +1,20 @@
+# Private working material belongs in a separate private repository.
+.env
+.env.*
+!.env.example
+!.env.sample
+private/
+confidential/
+proposals/
+customer-data/
+client-data/
+credentials/
+secrets/
+**/*Residency_Proposal*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+.venv/
+__pycache__/

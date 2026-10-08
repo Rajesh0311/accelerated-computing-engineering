@@ -161,3 +161,9 @@ The programme is complete when this title is defensible through reproducible eng
 
 GitHub holds technical proof, the NSDM website holds the dossier, and The NeuroAlchemist provides authored interpretation. Weekly publication preserves null findings, unsupported configurations and claim boundaries; it does not expand the locked curriculum.
 
+## Public publication boundary
+
+This is the public scientific portfolio. Released experiment code, data, methods and learning plans remain inspectable. Commercial implementation, proposals, customer data, daily operations and unapproved editorial drafts belong in the private development repository. See [the publication boundary](PUBLICATION_BOUNDARY.md).
+
+Before pushing a public release, run `python scripts/check_public_release.py`. Existing operational/draft pointers are frozen; update the private records instead. This is a current-tree publication check, not a full history/secret audit.
+
