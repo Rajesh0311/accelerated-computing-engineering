@@ -543,6 +543,48 @@ Given an AI/HPC workload:
 
 ---
 
+# 13. AI Infrastructure Economics & FinOps
+
+**Target level:** 3–4 — Strong to Engineer-Level
+
+## Level 1
+- Explain FinOps principles, personas and operating model
+- Understand allocation, tagging, showback and chargeback
+- Explain basic cloud pricing and commitment models
+
+## Level 2
+- Calculate GPU-hours and effective GPU-hours
+- Build cost/request, cost/token and cost/training-run measures
+- Compare on-demand, committed/reserved, spot and owned capacity
+- Interpret FOCUS-normalized cost-and-usage data
+
+## Level 3
+- Build workload-placement and capacity models
+- Forecast AI infrastructure demand and spend
+- Connect utilization, latency, throughput and memory behaviour to cost
+- Build showback/chargeback and unit-economic models
+- Evaluate AI Value and Technology Value
+
+## Level 4
+- Integrate profiler/telemetry evidence with financial data
+- Recommend architecture and capacity changes using technical and financial evidence
+- Defend capital-allocation decisions under uncertainty
+- Lead a governed AI infrastructure efficiency programme across engineering, finance and platform stakeholders
+
+### ACE Evidence
+- [ ] FOCUS-normalized dataset
+- [ ] GPU economics model
+- [ ] cloud/local placement analysis
+- [ ] showback/chargeback model
+- [ ] forecast/capacity plan
+- [ ] AI value case
+- [ ] technology-value recommendation
+
+**Current level:** 0  
+**Target:** 3–4
+
+---
+
 # Integrated ACE Capability
 
 The final ACE competence is not the sum of isolated technologies.
@@ -613,6 +655,8 @@ If these can be demonstrated with reproducible evidence, the ACE objective has b
 | Distributed Accelerators | 3 |
 | ML Systems | 3 |
 | Infrastructure Performance Economics | **4** |
+| FinOps Engineering / FOCUS | **3–4** |
+| AI Value / Technology Value | **3–4** |
 
 ## Overall target
 
