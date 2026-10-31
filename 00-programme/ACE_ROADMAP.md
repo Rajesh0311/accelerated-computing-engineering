@@ -400,6 +400,37 @@ Produce:
 
 ---
 
+# Phase 13 — AI Infrastructure Economics & FinOps Professional Path
+
+**Target:** August 2027 onward; Professional credential may extend into 2028 due to formal eligibility requirements  
+**Status:** INTERLEAVED / GATED
+
+### Sequence
+- FinOps Certified Engineer (preferred) or active FinOps Certified Practitioner
+- FinOps Certified FOCUS Analyst
+- FinOps Certified: AI Value
+- FinOps Certified: Technology Value
+- FinOps Certified Professional
+
+### Engineering objective
+Connect low-level compute performance to normalized cost data, unit economics, allocation, forecasting, technology value and capital decisions.
+
+### Required evidence
+- GPU-hour / effective-GPU-hour economics
+- cost/token, cost/request and cost/training-run models
+- FOCUS-normalized cost-and-usage dataset
+- accelerator-placement recommendation
+- cloud/local/on-demand/reserved/spot comparison
+- showback/chargeback model
+- AI value business case
+- technology-value recommendation
+- Professional Contribution when eligible
+
+### Boundary
+Coursera Plus is a preparation source where useful; the official credentials above are awarded by the FinOps Foundation.
+
+---
+
 # Target Professional Identity
 
 By 31 October 2027 the goal is to be able to defend the title:
