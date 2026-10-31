@@ -30,7 +30,7 @@ Able to reason across:
 | Programme completion | 0% | 100% |
 | Core study hours completed | 0 | ~620 |
 | Evidence gates passed | 1 | 16 |
-| Major phases completed | 0 | 12 |
+| Major phases completed | 0 | 13 |
 | Capstone status | NOT STARTED | PASSED |
 | Target completion | — | 31 October 2027 |
 
@@ -278,6 +278,26 @@ Status: **NOT PASSED**
 
 ---
 
+## Phase 13 — AI Infrastructure Economics & FinOps Professional Path
+
+**Status:** QUEUED / ELIGIBILITY-GATED  
+**Core ACE bridge:** CP8 — Compute Capacity Engineering + FinOps
+
+### Evidence target
+Demonstrate the ability to translate compute behaviour into normalized cost, unit economics, forecasting, allocation and technology-value decisions.
+
+### Formal credential sequence
+- [ ] FinOps Certified Engineer or active Practitioner
+- [ ] FinOps Certified FOCUS Analyst
+- [ ] FinOps Certified: AI Value
+- [ ] FinOps Certified: Technology Value
+- [ ] Professional Contribution completed
+- [ ] FinOps Certified Professional
+
+The Professional credential may close in 2028 if formal eligibility/contribution timing requires it; this does not reduce the October 2027 ACE technical evidence standard.
+
+---
+
 # Competency Scoreboard
 
 | Competency | Weight | Current |
@@ -336,6 +356,8 @@ The programme is complete when:
 - [ ] Transformer workload performance analyzed
 - [ ] Cross-accelerator capstone completed
 - [ ] Final technical synthesis completed
+- [ ] CP8 AI infrastructure economics evidence completed
+- [ ] FOCUS / AI Value / Technology Value pathway initiated or completed according to eligibility
 
 ---
 
