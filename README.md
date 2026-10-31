@@ -22,6 +22,8 @@ The objective is to develop demonstrable competence across:
 - Distributed accelerators
 - ML systems
 - AI infrastructure performance economics
+- FinOps engineering, FOCUS, AI Value and Technology Value
+- FinOps Certified Professional pathway
 
 ---
 
@@ -89,6 +91,7 @@ Daily operating loop:
 10. Distributed Accelerators
 11. AI Workload Internals
 12. Cross-Accelerator Capstone
+13. AI Infrastructure Economics & FinOps Professional Path
 
 ---
 
@@ -131,6 +134,8 @@ compiler/Triton competence demonstrated
 distributed accelerator competence demonstrated
 transformer workload performance analysed
 final cross-accelerator capstone completed
+CP8 infrastructure-economics evidence completed
+FinOps Professional pathway pursued according to official eligibility gates
 North Star
 
 The long-term engineering chain is:
@@ -145,6 +150,9 @@ ALGORITHM
 → CLUSTER
 → ENERGY
 → COST
+→ UNIT ECONOMICS
+→ TECHNOLOGY VALUE
+→ CAPITAL DECISION
 
 The goal is to understand and optimize the complete chain.
 
