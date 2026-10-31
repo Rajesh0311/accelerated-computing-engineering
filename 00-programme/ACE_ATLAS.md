@@ -211,6 +211,11 @@ Compute Platform Engineering is interleaved with the core programme rather than 
 | **CP6** | **Inference Serving Engineering** | **10/10** | **30–40** | Jul–Sep 2027 | vLLM, TensorRT/TensorRT-LLM, Triton, KV cache, batching, latency/throughput | Serving benchmark | QUEUED |
 | **CP7** | **Infrastructure Automation + Security** | **9/10** | **20–25** | May–Sep 2027 | Terraform/OpenTofu, Helm, GitOps, RBAC, secrets, image/security policy | Reproducible secured deployment | QUEUED |
 | **CP8** | **Compute Capacity Engineering + FinOps** | **10/10** | **20–25** | Jul–Oct 2027 | GPU-hours, utilization, placement, cloud/local/spot/reserved, showback | Placement + cost model | QUEUED |
+| **FV1** | **FinOps Certified Engineer / Practitioner Path** | **10/10** | **20–30** | Aug–Oct 2027 | FinOps framework, engineering persona, allocation, optimization, forecasting, unit economics | FinOps engineering case + official credential | QUEUED |
+| **FV2** | **FinOps Certified FOCUS Analyst** | **10/10** | **10–15** | Sep–Nov 2027 | FOCUS normalization, cost-and-usage data, cross-provider schema | FOCUS-normalized dataset + official credential | QUEUED |
+| **FV3** | **FinOps Certified: AI Value** | **10/10** | **10–15** | Sep–Nov 2027 | AI unit economics, value measurement, AI cost/value trade-offs | AI value case + official credential | QUEUED |
+| **FV4** | **FinOps Certified: Technology Value** | **10/10** | **20–30** | Oct–Dec 2027 | Public cloud, data center, SaaS/licensing, data cloud platforms, technology-value framing | Technology value portfolio + official credential | QUEUED |
+| **FV5** | **FinOps Certified Professional** | **10/10** | **Variable** | Late 2027–2028 | Senior FinOps practice, leadership, business case, community contribution | Professional Contribution + official Professional credential | GATED |
 
 ---
 
@@ -600,6 +605,43 @@ policy / sovereignty constraints
 
 ---
 
+# FinOps Professional Integration Path
+
+FinOps is not a separate programme. It is the financial-value and operating-model layer of the same ACE engineering chain.
+
+## Integrated chain
+
+**WORKLOAD → MODEL → COMPILER → KERNEL → ACCELERATOR → HOST → NETWORK → SCHEDULER → PLATFORM → TELEMETRY → CAPACITY → COST → UNIT ECONOMICS → TECHNOLOGY VALUE → CAPITAL DECISION**
+
+## Formal pathway
+
+1. **FinOps Certified Engineer** is the preferred entry credential for ACE because the FinOps Foundation explicitly recommends it for the engineering persona. A current **FinOps Certified Practitioner** also satisfies Professional enrollment eligibility.
+2. **FinOps Certified FOCUS Analyst** — normalize and reason over cost/usage data across providers.
+3. **FinOps Certified: AI Value** — connect AI infrastructure cost to useful business value.
+4. **FinOps Certified: Technology Value** — requires its five module badges before the certification exam: FinOps Scopes, Public Cloud, Data Center, SaaS & Licensing, and Data Cloud Platforms.
+5. **FinOps Certified Professional** — may be enrolled in once a current Practitioner or Engineer credential is held. Before the Professional exam, active FOCUS Analyst, AI Value and Technology Value credentials are mandatory, together with the required Professional Contribution.
+
+## Coursera Plus role
+
+Coursera Plus is used only for complementary preparation where suitable: cloud economics, cloud cost management, Kubernetes/cloud operations, accounting/finance refreshers, data analysis and related supporting skills. **Coursera Plus does not substitute for or award FinOps Foundation credentials.** Official FinOps certifications are completed through the FinOps Foundation.
+
+## Required ACE-FinOps evidence
+
+- GPU-hour and effective-GPU-hour model
+- cost per request, token and training run
+- accelerator utilization and idle-fragmentation cost
+- reserved/committed/on-demand/spot comparison
+- local vs cloud placement model
+- FOCUS-normalized cost-and-usage dataset
+- showback/chargeback model
+- forecast and capacity plan
+- AI value case linking technical optimization to business outcome
+- technology-value recommendation with assumptions and sensitivity analysis
+
+The Professional credential is **eligibility-gated**, so ACE does not force it artificially into the October 2027 core-completion date. The technical and economic competencies are built during ACE; the final Professional credential is completed as soon as official eligibility and contribution requirements are satisfied.
+
+---
+
 # Programme Timeline
 
 The schedule was revised on 23 September 2026 due to unforeseen circumstances. The [locked baseline](ACE_LOCKED_BASELINE.md#schedule-lock) governs the dates. The formal core runs from 1 December 2026 through 31 October 2027, with integrated capstone work and evidence closure in September–October 2027. Course hours, order, prerequisites and evidence requirements remain unchanged. Target windows permit interleaving only after prerequisites pass; unfinished work moves later rather than being compressed.
@@ -676,6 +718,9 @@ CS205A does not create a seventeenth gate. Numerical correctness is a cross-cutt
 | Inference Serving | **Level 3** |
 | Infrastructure Automation / Security | **Level 2–3** |
 | Compute Capacity / FinOps | **Level 4** |
+| FOCUS / Cost & Usage Data | **Level 3** |
+| AI Value / Technology Value | **Level 3–4** |
+| FinOps Engineering | **Level 3–4** |
 | **Integrated Compute Platform Engineering** | **Level 4** |
 
 ---
