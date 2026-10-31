@@ -175,6 +175,28 @@ The proof from these sources is the implementation, benchmark, profiler trace, t
 
 ---
 
+# Integrated FinOps Professional Path
+
+FinOps is now a formal specialization inside ACE rather than a disconnected post-programme add-on.
+
+The preferred certification sequence is:
+
+1. **FinOps Certified Engineer** (preferred ACE route) or current **FinOps Certified Practitioner**
+2. **FinOps Certified FOCUS Analyst**
+3. **FinOps Certified: AI Value**
+4. **FinOps Certified: Technology Value**
+5. **FinOps Certified Professional**
+
+Official Professional requirements are treated as external eligibility gates. A current Practitioner or Engineer credential is required to enroll. Before the Professional exam, active FOCUS Analyst, AI Value and Technology Value certifications are required, together with the Professional Contribution.
+
+Coursera Plus may be used for supporting preparation but is not represented as the issuer of FinOps Foundation credentials.
+
+ACE's CP8 evidence becomes the bridge into this pathway through GPU economics, workload placement, FOCUS-normalized cost data, showback/chargeback, forecasting, AI value and technology-value analysis.
+
+The core ACE completion date remains **31 October 2027**. If the FinOps Certified Professional eligibility/contribution requirements extend beyond that date, the credential continues as the programme's first gated professional specialization into 2028 without delaying or weakening the ACE core evidence standard.
+
+---
+
 # Evidence Standard — Non-Negotiable
 
 No phase is considered complete merely because videos were watched or assessments were passed.
